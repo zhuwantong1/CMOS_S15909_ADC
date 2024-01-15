@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="S15909_H750"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="S15909_H750.elf">
+				<Option output="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/cmake-build-debug/S15909_H750.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32H750xx"/>
+					<Add directory="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Inc"/>
+					<Add directory="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Inc"/>
+					<Add directory="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/CMSIS/Device/ST/STM32H7xx/Include"/>
+					<Add directory="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/CMSIS/Include"/>
+					<Add directory="f:\work\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="f:\work\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="f:\work\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="f:\work\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="f:\work\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="f:\work\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/cmake-build-debug/Makefile&quot;  VERBOSE=1 S15909_H750.elf"/>
+					<CompileFile command="D:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="S15909_H750.elf/fast">
+				<Option output="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/cmake-build-debug/S15909_H750.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32H750xx"/>
+					<Add directory="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Inc"/>
+					<Add directory="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Inc"/>
+					<Add directory="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/CMSIS/Device/ST/STM32H7xx/Include"/>
+					<Add directory="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/CMSIS/Include"/>
+					<Add directory="f:\work\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="f:\work\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="f:\work\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="f:\work\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="f:\work\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="f:\work\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/cmake-build-debug/Makefile&quot;  VERBOSE=1 S15909_H750.elf/fast"/>
+					<CompileFile command="D:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Inc/adc.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Inc/dma.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Inc/gpio.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Inc/main.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Inc/retarget.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Inc/stm32h7xx_hal_conf.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Inc/stm32h7xx_it.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Inc/tim.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Inc/usart.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Src/adc.c">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Src/dam.c">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Src/dma.c">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Src/gpio.c">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Src/main.c">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Src/retarget.c">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Src/stm32h7xx_hal_msp.c">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Src/stm32h7xx_it.c">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Src/syscalls.c">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Src/sysmem.c">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Src/system_stm32h7xx.c">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Src/tim.c">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Src/usart.c">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Startup/startup_stm32h750vbtx.s">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/CMSIS/Device/ST/STM32H7xx/LICENSE.txt">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/CMSIS/Include/cmsis_armclang_ltm.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/CMSIS/Include/core_armv81mml.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/CMSIS/Include/core_cm35p.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/CMSIS/LICENSE.txt">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc_ex.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_adc.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_bus.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_cortex.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_crs.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_dma.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_dmamux.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_exti.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_gpio.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_hsem.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_lpuart.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_pwr.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_rcc.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_system.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_tim.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usart.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_utils.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/LICENSE.txt">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.c">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.c">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/STM32H750VBTX_FLASH.ld">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
