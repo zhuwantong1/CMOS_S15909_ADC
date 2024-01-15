@@ -183,6 +183,7 @@ int main(void)
                     }
                 }
                 g_usart_rx_sta = 0;
+                memset(g_usart_rx_buf, 0, sizeof(g_usart_rx_buf));
             }
 			if(G_Clk_Rise_Number>=2080)
 			{
