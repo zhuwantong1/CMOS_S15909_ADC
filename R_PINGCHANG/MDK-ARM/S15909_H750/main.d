@@ -44,5 +44,4 @@ s15909_h750\main.o: ../Core/Inc/dma.h
 s15909_h750\main.o: ../Core/Inc/tim.h
 s15909_h750\main.o: ../Core/Inc/usart.h
 s15909_h750\main.o: ../Core/Inc/gpio.h
-s15909_h750\main.o: D:\keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
-s15909_h750\main.o: D:\keil_v5\ARM\ARMCC\Bin\..\include\string.h
+s15909_h750\main.o: ../Core/Inc/retarget.h

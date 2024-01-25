@@ -143,7 +143,6 @@ int main(void)
   MX_TIM1_Init();
   MX_TIM2_Init();
   MX_USART1_UART_Init();
-  RetargetInit(&huart1);
   MX_TIM12_Init();
   MX_ADC1_Init();
   MX_TIM3_Init();
@@ -196,6 +195,7 @@ int main(void)
             {
               temp16_2[i]+=adc_ans[i];
             }
+            
         if	(index%Average_Number==0)
         {
             for(int i=0;i<512;i++)

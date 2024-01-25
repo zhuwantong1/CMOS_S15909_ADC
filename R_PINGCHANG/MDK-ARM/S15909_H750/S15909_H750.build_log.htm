@@ -21,17 +21,24 @@ Target DLL:      CMSIS_AGDI.dll V1.33.15.0
 Dialog DLL:      TCM.DLL V1.56.4.0
  
 <h2>Project:</h2>
-D:\01zhuwantong\COMS_S15909_ADC采集\chegnxu\任工写平均可正常运行\MDK-ARM\S15909_H750.uvprojx
-Project File Date:  12/25/2023
+D:\01zhuwantong\COMS_S15909_ADC\R_PINGCHANG\MDK-ARM\S15909_H750.uvprojx
+Project File Date:  01/15/2024
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\keil_v5\ARM\ARMCC\Bin'
 Build target 'S15909_H750'
 compiling main.c...
-linking...
-Program Size: Code=39624 RO-data=760 RW-data=44 ZI-data=8972  
-FromELF: creating hex file...
-"S15909_H750\S15909_H750.axf" - 0 Error(s), 0 Warning(s).
+../Core/Inc/retarget.h(5): error:  #5: cannot open source input file "sys/stat.h": No such file or directory
+  #include <sys/stat.h>
+../Core/Src/main.c: 0 warnings, 1 error
+compiling adc.c...
+compiling gpio.c...
+compiling dma.c...
+compiling usart.c...
+compiling tim.c...
+compiling stm32h7xx_hal_msp.c...
+compiling stm32h7xx_it.c...
+"S15909_H750\S15909_H750.axf" - 1 Error(s), 0 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -54,7 +61,8 @@ Package Vendor: Keil
 <h2>Collection of Component Files used:</h2>
 
    * Component: ARM::CMSIS:CORE:5.6.0
-Build Time Elapsed:  00:00:01
+Target not created.
+Build Time Elapsed:  00:00:03
 </pre>
 </body>
 </html>

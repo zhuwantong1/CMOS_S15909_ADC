@@ -21,13 +21,13 @@
 #include "usart.h"
 
 /* USER CODE BEGIN 0 */
-/* 接收缓冲, 最大USART_REC_LEN个字节. */
+/* 接收缓冲, �?大USART_REC_LEN个字�?. */
 uint8_t g_usart_rx_buf[USART_REC_LEN];
 
-/*  接收状态
- *  bit15，      接收完成标志
- *  bit14，      接收到0x0d
- *  bit13~0，    接收到的有效字节数目
+/*  接收状�??
+ *  bit15�?      接收完成标志
+ *  bit14�?      接收�?0x0d
+ *  bit13~0�?    接收到的有效字节数目
 */
 uint16_t g_usart_rx_sta = 0;
 /* HAL库使用的串口接收缓冲 */
@@ -52,7 +52,7 @@ void MX_USART1_UART_Init(void)
 
   /* USER CODE END USART1_Init 1 */
   huart1.Instance = USART1;
-  huart1.Init.BaudRate = 115200;
+  huart1.Init.BaudRate = 921600;
   huart1.Init.WordLength = UART_WORDLENGTH_8B;
   huart1.Init.StopBits = UART_STOPBITS_1;
   huart1.Init.Parity = UART_PARITY_NONE;
@@ -81,7 +81,7 @@ void MX_USART1_UART_Init(void)
   /* USER CODE BEGIN USART1_Init 2 */
     HAL_UART_Receive_IT(&huart1, (uint8_t *)g_rx_buffer, RXBUFFERSIZE);
 
-    /* USER CODE END USART1_Init 2 */
+  /* USER CODE END USART1_Init 2 */
 
 }
 
@@ -179,19 +179,19 @@ void HAL_UART_MspDeInit(UART_HandleTypeDef* uartHandle)
 /* USER CODE BEGIN 1 */
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 {
-    if(huart->Instance == USART1)                             /* 如果是串口1 */
+    if(huart->Instance == USART1)                             /* 如果是串�?1 */
     {
-        if((g_usart_rx_sta & 0x8000) == 0)                    /* 接收未完成 */
+        if((g_usart_rx_sta & 0x8000) == 0)                    /* 接收未完�? */
         {
             if(g_usart_rx_sta & 0x4000)                       /* 接收到了0x0d */
             {
                 if(g_rx_buffer[0] != 0x0a)
                 {
-                    g_usart_rx_sta = 0;                       /* 接收错误,重新开始 */
+                    g_usart_rx_sta = 0;                       /* 接收错误,重新�?�? */
                 }
                 else
                 {
-                    g_usart_rx_sta |= 0x8000;                 /* 接收完成了 */
+                    g_usart_rx_sta |= 0x8000;                 /* 接收完成�? */
                 }
             }
             else                                              /* 还没收到0X0D */
@@ -206,7 +206,7 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
                     g_usart_rx_sta++;
                     if(g_usart_rx_sta > (USART_REC_LEN - 1))
                     {
-                        g_usart_rx_sta = 0;                   /* 接收数据错误,重新开始接收 */
+                        g_usart_rx_sta = 0;                   /* 接收数据错误,重新�?始接�? */
                     }
                 }
             }
