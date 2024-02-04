@@ -30,8 +30,15 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Src/Communication_Protocol.c" "CMakeFiles/S15909_H750.elf.dir/Core/Src/Communication_Protocol.c.obj" "gcc" "CMakeFiles/S15909_H750.elf.dir/Core/Src/Communication_Protocol.c.obj.d"
+  "D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Src/Control_Adjustment.c" "CMakeFiles/S15909_H750.elf.dir/Core/Src/Control_Adjustment.c.obj" "gcc" "CMakeFiles/S15909_H750.elf.dir/Core/Src/Control_Adjustment.c.obj.d"
+  "D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Src/Get_Parameters.c" "CMakeFiles/S15909_H750.elf.dir/Core/Src/Get_Parameters.c.obj" "gcc" "CMakeFiles/S15909_H750.elf.dir/Core/Src/Get_Parameters.c.obj.d"
+  "D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Src/Judge.c" "CMakeFiles/S15909_H750.elf.dir/Core/Src/Judge.c.obj" "gcc" "CMakeFiles/S15909_H750.elf.dir/Core/Src/Judge.c.obj.d"
+  "D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Src/SerialDataProcess.c" "CMakeFiles/S15909_H750.elf.dir/Core/Src/SerialDataProcess.c.obj" "gcc" "CMakeFiles/S15909_H750.elf.dir/Core/Src/SerialDataProcess.c.obj.d"
+  "D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Src/Store_Information.c" "CMakeFiles/S15909_H750.elf.dir/Core/Src/Store_Information.c.obj" "gcc" "CMakeFiles/S15909_H750.elf.dir/Core/Src/Store_Information.c.obj.d"
   "D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Src/adc.c" "CMakeFiles/S15909_H750.elf.dir/Core/Src/adc.c.obj" "gcc" "CMakeFiles/S15909_H750.elf.dir/Core/Src/adc.c.obj.d"
-  "D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Src/dam.c" "CMakeFiles/S15909_H750.elf.dir/Core/Src/dam.c.obj" "gcc" "CMakeFiles/S15909_H750.elf.dir/Core/Src/dam.c.obj.d"
+  "D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Src/cJSON.c" "CMakeFiles/S15909_H750.elf.dir/Core/Src/cJSON.c.obj" "gcc" "CMakeFiles/S15909_H750.elf.dir/Core/Src/cJSON.c.obj.d"
+  "D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Src/cJSON_Test.c" "CMakeFiles/S15909_H750.elf.dir/Core/Src/cJSON_Test.c.obj" "gcc" "CMakeFiles/S15909_H750.elf.dir/Core/Src/cJSON_Test.c.obj.d"
   "D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Src/dma.c" "CMakeFiles/S15909_H750.elf.dir/Core/Src/dma.c.obj" "gcc" "CMakeFiles/S15909_H750.elf.dir/Core/Src/dma.c.obj.d"
   "D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Src/gpio.c" "CMakeFiles/S15909_H750.elf.dir/Core/Src/gpio.c.obj" "gcc" "CMakeFiles/S15909_H750.elf.dir/Core/Src/gpio.c.obj.d"
   "D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Src/main.c" "CMakeFiles/S15909_H750.elf.dir/Core/Src/main.c.obj" "gcc" "CMakeFiles/S15909_H750.elf.dir/Core/Src/main.c.obj.d"

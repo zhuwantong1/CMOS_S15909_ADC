@@ -128,6 +128,150 @@ S15909_H750.elf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\S15909_H750.elf.dir\build.make CMakeFiles/S15909_H750.elf.dir/build
 .PHONY : S15909_H750.elf/fast
 
+Core/Src/Communication_Protocol.obj: Core/Src/Communication_Protocol.c.obj
+.PHONY : Core/Src/Communication_Protocol.obj
+
+# target to build an object file
+Core/Src/Communication_Protocol.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\S15909_H750.elf.dir\build.make CMakeFiles/S15909_H750.elf.dir/Core/Src/Communication_Protocol.c.obj
+.PHONY : Core/Src/Communication_Protocol.c.obj
+
+Core/Src/Communication_Protocol.i: Core/Src/Communication_Protocol.c.i
+.PHONY : Core/Src/Communication_Protocol.i
+
+# target to preprocess a source file
+Core/Src/Communication_Protocol.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\S15909_H750.elf.dir\build.make CMakeFiles/S15909_H750.elf.dir/Core/Src/Communication_Protocol.c.i
+.PHONY : Core/Src/Communication_Protocol.c.i
+
+Core/Src/Communication_Protocol.s: Core/Src/Communication_Protocol.c.s
+.PHONY : Core/Src/Communication_Protocol.s
+
+# target to generate assembly for a file
+Core/Src/Communication_Protocol.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\S15909_H750.elf.dir\build.make CMakeFiles/S15909_H750.elf.dir/Core/Src/Communication_Protocol.c.s
+.PHONY : Core/Src/Communication_Protocol.c.s
+
+Core/Src/Control_Adjustment.obj: Core/Src/Control_Adjustment.c.obj
+.PHONY : Core/Src/Control_Adjustment.obj
+
+# target to build an object file
+Core/Src/Control_Adjustment.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\S15909_H750.elf.dir\build.make CMakeFiles/S15909_H750.elf.dir/Core/Src/Control_Adjustment.c.obj
+.PHONY : Core/Src/Control_Adjustment.c.obj
+
+Core/Src/Control_Adjustment.i: Core/Src/Control_Adjustment.c.i
+.PHONY : Core/Src/Control_Adjustment.i
+
+# target to preprocess a source file
+Core/Src/Control_Adjustment.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\S15909_H750.elf.dir\build.make CMakeFiles/S15909_H750.elf.dir/Core/Src/Control_Adjustment.c.i
+.PHONY : Core/Src/Control_Adjustment.c.i
+
+Core/Src/Control_Adjustment.s: Core/Src/Control_Adjustment.c.s
+.PHONY : Core/Src/Control_Adjustment.s
+
+# target to generate assembly for a file
+Core/Src/Control_Adjustment.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\S15909_H750.elf.dir\build.make CMakeFiles/S15909_H750.elf.dir/Core/Src/Control_Adjustment.c.s
+.PHONY : Core/Src/Control_Adjustment.c.s
+
+Core/Src/Get_Parameters.obj: Core/Src/Get_Parameters.c.obj
+.PHONY : Core/Src/Get_Parameters.obj
+
+# target to build an object file
+Core/Src/Get_Parameters.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\S15909_H750.elf.dir\build.make CMakeFiles/S15909_H750.elf.dir/Core/Src/Get_Parameters.c.obj
+.PHONY : Core/Src/Get_Parameters.c.obj
+
+Core/Src/Get_Parameters.i: Core/Src/Get_Parameters.c.i
+.PHONY : Core/Src/Get_Parameters.i
+
+# target to preprocess a source file
+Core/Src/Get_Parameters.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\S15909_H750.elf.dir\build.make CMakeFiles/S15909_H750.elf.dir/Core/Src/Get_Parameters.c.i
+.PHONY : Core/Src/Get_Parameters.c.i
+
+Core/Src/Get_Parameters.s: Core/Src/Get_Parameters.c.s
+.PHONY : Core/Src/Get_Parameters.s
+
+# target to generate assembly for a file
+Core/Src/Get_Parameters.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\S15909_H750.elf.dir\build.make CMakeFiles/S15909_H750.elf.dir/Core/Src/Get_Parameters.c.s
+.PHONY : Core/Src/Get_Parameters.c.s
+
+Core/Src/Judge.obj: Core/Src/Judge.c.obj
+.PHONY : Core/Src/Judge.obj
+
+# target to build an object file
+Core/Src/Judge.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\S15909_H750.elf.dir\build.make CMakeFiles/S15909_H750.elf.dir/Core/Src/Judge.c.obj
+.PHONY : Core/Src/Judge.c.obj
+
+Core/Src/Judge.i: Core/Src/Judge.c.i
+.PHONY : Core/Src/Judge.i
+
+# target to preprocess a source file
+Core/Src/Judge.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\S15909_H750.elf.dir\build.make CMakeFiles/S15909_H750.elf.dir/Core/Src/Judge.c.i
+.PHONY : Core/Src/Judge.c.i
+
+Core/Src/Judge.s: Core/Src/Judge.c.s
+.PHONY : Core/Src/Judge.s
+
+# target to generate assembly for a file
+Core/Src/Judge.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\S15909_H750.elf.dir\build.make CMakeFiles/S15909_H750.elf.dir/Core/Src/Judge.c.s
+.PHONY : Core/Src/Judge.c.s
+
+Core/Src/SerialDataProcess.obj: Core/Src/SerialDataProcess.c.obj
+.PHONY : Core/Src/SerialDataProcess.obj
+
+# target to build an object file
+Core/Src/SerialDataProcess.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\S15909_H750.elf.dir\build.make CMakeFiles/S15909_H750.elf.dir/Core/Src/SerialDataProcess.c.obj
+.PHONY : Core/Src/SerialDataProcess.c.obj
+
+Core/Src/SerialDataProcess.i: Core/Src/SerialDataProcess.c.i
+.PHONY : Core/Src/SerialDataProcess.i
+
+# target to preprocess a source file
+Core/Src/SerialDataProcess.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\S15909_H750.elf.dir\build.make CMakeFiles/S15909_H750.elf.dir/Core/Src/SerialDataProcess.c.i
+.PHONY : Core/Src/SerialDataProcess.c.i
+
+Core/Src/SerialDataProcess.s: Core/Src/SerialDataProcess.c.s
+.PHONY : Core/Src/SerialDataProcess.s
+
+# target to generate assembly for a file
+Core/Src/SerialDataProcess.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\S15909_H750.elf.dir\build.make CMakeFiles/S15909_H750.elf.dir/Core/Src/SerialDataProcess.c.s
+.PHONY : Core/Src/SerialDataProcess.c.s
+
+Core/Src/Store_Information.obj: Core/Src/Store_Information.c.obj
+.PHONY : Core/Src/Store_Information.obj
+
+# target to build an object file
+Core/Src/Store_Information.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\S15909_H750.elf.dir\build.make CMakeFiles/S15909_H750.elf.dir/Core/Src/Store_Information.c.obj
+.PHONY : Core/Src/Store_Information.c.obj
+
+Core/Src/Store_Information.i: Core/Src/Store_Information.c.i
+.PHONY : Core/Src/Store_Information.i
+
+# target to preprocess a source file
+Core/Src/Store_Information.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\S15909_H750.elf.dir\build.make CMakeFiles/S15909_H750.elf.dir/Core/Src/Store_Information.c.i
+.PHONY : Core/Src/Store_Information.c.i
+
+Core/Src/Store_Information.s: Core/Src/Store_Information.c.s
+.PHONY : Core/Src/Store_Information.s
+
+# target to generate assembly for a file
+Core/Src/Store_Information.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\S15909_H750.elf.dir\build.make CMakeFiles/S15909_H750.elf.dir/Core/Src/Store_Information.c.s
+.PHONY : Core/Src/Store_Information.c.s
+
 Core/Src/adc.obj: Core/Src/adc.c.obj
 .PHONY : Core/Src/adc.obj
 
@@ -152,29 +296,53 @@ Core/Src/adc.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\S15909_H750.elf.dir\build.make CMakeFiles/S15909_H750.elf.dir/Core/Src/adc.c.s
 .PHONY : Core/Src/adc.c.s
 
-Core/Src/dam.obj: Core/Src/dam.c.obj
-.PHONY : Core/Src/dam.obj
+Core/Src/cJSON.obj: Core/Src/cJSON.c.obj
+.PHONY : Core/Src/cJSON.obj
 
 # target to build an object file
-Core/Src/dam.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\S15909_H750.elf.dir\build.make CMakeFiles/S15909_H750.elf.dir/Core/Src/dam.c.obj
-.PHONY : Core/Src/dam.c.obj
+Core/Src/cJSON.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\S15909_H750.elf.dir\build.make CMakeFiles/S15909_H750.elf.dir/Core/Src/cJSON.c.obj
+.PHONY : Core/Src/cJSON.c.obj
 
-Core/Src/dam.i: Core/Src/dam.c.i
-.PHONY : Core/Src/dam.i
+Core/Src/cJSON.i: Core/Src/cJSON.c.i
+.PHONY : Core/Src/cJSON.i
 
 # target to preprocess a source file
-Core/Src/dam.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\S15909_H750.elf.dir\build.make CMakeFiles/S15909_H750.elf.dir/Core/Src/dam.c.i
-.PHONY : Core/Src/dam.c.i
+Core/Src/cJSON.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\S15909_H750.elf.dir\build.make CMakeFiles/S15909_H750.elf.dir/Core/Src/cJSON.c.i
+.PHONY : Core/Src/cJSON.c.i
 
-Core/Src/dam.s: Core/Src/dam.c.s
-.PHONY : Core/Src/dam.s
+Core/Src/cJSON.s: Core/Src/cJSON.c.s
+.PHONY : Core/Src/cJSON.s
 
 # target to generate assembly for a file
-Core/Src/dam.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\S15909_H750.elf.dir\build.make CMakeFiles/S15909_H750.elf.dir/Core/Src/dam.c.s
-.PHONY : Core/Src/dam.c.s
+Core/Src/cJSON.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\S15909_H750.elf.dir\build.make CMakeFiles/S15909_H750.elf.dir/Core/Src/cJSON.c.s
+.PHONY : Core/Src/cJSON.c.s
+
+Core/Src/cJSON_Test.obj: Core/Src/cJSON_Test.c.obj
+.PHONY : Core/Src/cJSON_Test.obj
+
+# target to build an object file
+Core/Src/cJSON_Test.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\S15909_H750.elf.dir\build.make CMakeFiles/S15909_H750.elf.dir/Core/Src/cJSON_Test.c.obj
+.PHONY : Core/Src/cJSON_Test.c.obj
+
+Core/Src/cJSON_Test.i: Core/Src/cJSON_Test.c.i
+.PHONY : Core/Src/cJSON_Test.i
+
+# target to preprocess a source file
+Core/Src/cJSON_Test.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\S15909_H750.elf.dir\build.make CMakeFiles/S15909_H750.elf.dir/Core/Src/cJSON_Test.c.i
+.PHONY : Core/Src/cJSON_Test.c.i
+
+Core/Src/cJSON_Test.s: Core/Src/cJSON_Test.c.s
+.PHONY : Core/Src/cJSON_Test.s
+
+# target to generate assembly for a file
+Core/Src/cJSON_Test.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\S15909_H750.elf.dir\build.make CMakeFiles/S15909_H750.elf.dir/Core/Src/cJSON_Test.c.s
+.PHONY : Core/Src/cJSON_Test.c.s
 
 Core/Src/dma.obj: Core/Src/dma.c.obj
 .PHONY : Core/Src/dma.obj
@@ -985,12 +1153,33 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... S15909_H750.elf
+	@echo ... Core/Src/Communication_Protocol.obj
+	@echo ... Core/Src/Communication_Protocol.i
+	@echo ... Core/Src/Communication_Protocol.s
+	@echo ... Core/Src/Control_Adjustment.obj
+	@echo ... Core/Src/Control_Adjustment.i
+	@echo ... Core/Src/Control_Adjustment.s
+	@echo ... Core/Src/Get_Parameters.obj
+	@echo ... Core/Src/Get_Parameters.i
+	@echo ... Core/Src/Get_Parameters.s
+	@echo ... Core/Src/Judge.obj
+	@echo ... Core/Src/Judge.i
+	@echo ... Core/Src/Judge.s
+	@echo ... Core/Src/SerialDataProcess.obj
+	@echo ... Core/Src/SerialDataProcess.i
+	@echo ... Core/Src/SerialDataProcess.s
+	@echo ... Core/Src/Store_Information.obj
+	@echo ... Core/Src/Store_Information.i
+	@echo ... Core/Src/Store_Information.s
 	@echo ... Core/Src/adc.obj
 	@echo ... Core/Src/adc.i
 	@echo ... Core/Src/adc.s
-	@echo ... Core/Src/dam.obj
-	@echo ... Core/Src/dam.i
-	@echo ... Core/Src/dam.s
+	@echo ... Core/Src/cJSON.obj
+	@echo ... Core/Src/cJSON.i
+	@echo ... Core/Src/cJSON.s
+	@echo ... Core/Src/cJSON_Test.obj
+	@echo ... Core/Src/cJSON_Test.i
+	@echo ... Core/Src/cJSON_Test.s
 	@echo ... Core/Src/dma.obj
 	@echo ... Core/Src/dma.i
 	@echo ... Core/Src/dma.s

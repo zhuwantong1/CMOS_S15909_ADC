@@ -1,51 +1,164 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="S15909_H750" targetName="S15909_H750.elf" />
+    </generated>
+  </component>
   <component name="CMakeSettings">
     <configurations>
       <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3160c61-0585-4610-a05e-69c7dd0c4e0a" name="变更" comment="">
-      <change beforePath="$PROJECT_DIR$/R_PINGCHANG/Core/Inc/usart.h" beforeDir="false" afterPath="$PROJECT_DIR$/R_PINGCHANG/Core/Inc/usart.h" afterDir="false" />
+    <list default="true" id="b3160c61-0585-4610-a05e-69c7dd0c4e0a" name="变更" comment="上传参考pdf">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/R_PINGCHANG/Core/Inc/SerialDataProcess.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/R_PINGCHANG/Core/Inc/cJSON.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/R_PINGCHANG/Core/Inc/cJSON_Test.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/R_PINGCHANG/Core/Src/SerialDataProcess.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/R_PINGCHANG/Core/Src/cJSON.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/R_PINGCHANG/Core/Src/cJSON_Test.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/通信协议脑图.excalidraw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/COMS_S15909_ADC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/COMS_S15909_ADC.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/R_PINGCHANG/Core/Inc/retarget.h" beforeDir="false" afterPath="$PROJECT_DIR$/R_PINGCHANG/Core/Inc/retarget.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/R_PINGCHANG/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/R_PINGCHANG/Core/Src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/R_PINGCHANG/Core/Src/tim.c" beforeDir="false" afterPath="$PROJECT_DIR$/R_PINGCHANG/Core/Src/tim.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/R_PINGCHANG/Core/Src/usart.c" beforeDir="false" afterPath="$PROJECT_DIR$/R_PINGCHANG/Core/Src/usart.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/R_PINGCHANG/S15909_H750.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/R_PINGCHANG/S15909_H750.ioc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/.cmake/api/v1/reply/cache-v2-f1aafa58fc995e800cda.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-04bf898136bfdb5d2953.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-1d06eb9c4598992308de.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/.cmake/api/v1/reply/index-2024-01-22T03-57-31-0613.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/.cmake/api/v1/reply/target-S15909_H750.elf-Debug-964cddcb064fff309cda.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/CMakeFiles/S15909_H750.elf.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/CMakeFiles/S15909_H750.elf.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/CMakeFiles/S15909_H750.elf.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/CMakeFiles/S15909_H750.elf.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/CMakeFiles/S15909_H750.elf.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/CMakeFiles/S15909_H750.elf.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/CMakeFiles/S15909_H750.elf.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/CMakeFiles/S15909_H750.elf.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/CMakeFiles/S15909_H750.elf.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/CMakeFiles/S15909_H750.elf.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/S15909_H750.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/S15909_H750.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2ayjjJy4CKi5JX2n3X2uHpvVmhD" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "last_opened_file_path": "D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/CMakeLists.txt",
+    "last_opened_file_path": "D:/01zhuwantong/COMS_S15909_ADC_capture/chegnxu/R_PINGCHANG/S15909_H750.ioc",
     "settings.editor.selected.configurable": "CPPToolchains"
   }
 }]]></component>
+  <component name="RunManager" selected="OpenOCD 下载并运行.S15909_H750.elf">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="S15909_H750.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="S15909_H750" TARGET_NAME="S15909_H750.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="S15909_H750" RUN_TARGET_NAME="S15909_H750.elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="S15909_H750.elf" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="S15909_H750" TARGET_NAME="S15909_H750.elf" CONFIG_NAME="Debug" version="1" RUN_TARGET_PROJECT_NAME="S15909_H750" RUN_TARGET_NAME="S15909_H750.elf">
+      <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="D:\cubecode\config\cmsis_dap.cfg" reset-type="INIT" download-type="ALWAYS">
+        <debugger kind="GDB" isBundled="true" />
+      </openocd>
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake 应用程序.S15909_H750.elf" />
+      <item itemvalue="OpenOCD 下载并运行.S15909_H750.elf" />
+    </list>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
+      <changelist id="b3160c61-0585-4610-a05e-69c7dd0c4e0a" name="变更" comment="" />
       <created>1705297846762</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705297846762</updated>
       <workItem from="1705297857976" duration="254000" />
+      <workItem from="1706162775958" duration="1761000" />
+      <workItem from="1706251262864" duration="5026000" />
+      <workItem from="1706490154965" duration="9128000" />
     </task>
+    <task id="LOCAL-00001" summary="上传参考pdf">
+      <created>1706163853782</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706163853782</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="SHOW_OTHER_BRANCHES" value="true" />
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="上传参考pdf" />
+    <option name="LAST_COMMIT_MESSAGE" value="上传参考pdf" />
   </component>
 </project>

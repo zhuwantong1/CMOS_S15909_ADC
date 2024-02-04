@@ -96,7 +96,34 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Inc/Communication_Protocol.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Inc/Communication_struct.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Inc/Control_Adjustment.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Inc/Get_Parameters.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Inc/Judge.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Inc/SerialDataProcess.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Inc/Store_Information.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
 		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Inc/adc.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Inc/cJSON.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Inc/cJSON_Test.h">
 			<Option target="S15909_H750.elf"/>
 		</Unit>
 		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Inc/dma.h">
@@ -123,10 +150,31 @@
 		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Inc/usart.h">
 			<Option target="S15909_H750.elf"/>
 		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Src/Communication_Protocol.c">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Src/Control_Adjustment.c">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Src/Get_Parameters.c">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Src/Judge.c">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Src/SerialDataProcess.c">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Src/Store_Information.c">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
 		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Src/adc.c">
 			<Option target="S15909_H750.elf"/>
 		</Unit>
-		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Src/dam.c">
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Src/cJSON.c">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Src/cJSON_Test.c">
 			<Option target="S15909_H750.elf"/>
 		</Unit>
 		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Src/dma.c">

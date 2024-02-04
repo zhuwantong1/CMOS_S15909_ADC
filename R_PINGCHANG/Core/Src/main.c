@@ -27,13 +27,13 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "retarget.h"
-
-#include "stdlib.h"
-#include "stdio.h"
 #include "string.h"
-
+#include "SerialDataProcess.h"
 #include "stdio.h" //对printf进行重定向
 #include <stdint.h>
+#include "Judge.h"
+#include "cJSON_Test.h"
+#include <stdbool.h>
 ///**
 //  * 函数功能: 重定向c库函数printf到DEBUG_USARTx
 //  * 输入参数: 无
@@ -96,7 +96,7 @@ static void MPU_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
+bool Printf_Flag = true;
 /* USER CODE END 0 */
 
 /**
@@ -143,6 +143,7 @@ int main(void)
   MX_TIM1_Init();
   MX_TIM2_Init();
   MX_USART1_UART_Init();
+    RetargetInit(&huart1);
   MX_TIM12_Init();
   MX_ADC1_Init();
   MX_TIM3_Init();
@@ -161,73 +162,61 @@ int main(void)
   int needreset1=0;
   int needreset2=1;
   int thisneedtransfor=1;
-  uint8_t len;
-  int value;
+
   while (1)
   {
 		while(1)
 		{
-            if (g_usart_rx_sta & 0x8000)        /* 接收到了数据 */
-            {
-                len = g_usart_rx_sta & 0x3FFF;  /* 获取有效数据长度 */
-                char *p = strtok(g_usart_rx_buf, "#");
-                if (strcmp(p, "SET") == 0) {    /* SET#MUL#0 */
-                    // 提取第二个井号前的字符串
-                    p = strtok(NULL, "#");
-                    if (strcmp(p, "MUL") == 0) {
-                        p = strtok(NULL, "#");
-                        value = atoi(p);
-                        mul_int_max = value;
-                        printf("mul");
-                    }
-                }
-                g_usart_rx_sta = 0;
-                memset(g_usart_rx_buf, 0, sizeof(g_usart_rx_buf));
+//            SerialDataProcess();
+            SerialDataProcess();
+            if(Printf_Flag== true){
+                Judge();
+                Printf_Flag = false;
             }
-			if(G_Clk_Rise_Number>=2080)
-			{
-				needreset1=1;
-			}
-			if(G_Hamamatsu_Trigger_Rise_Number>=512&&thisneedtransfor)
-			{
-				thisneedtransfor=0;
-            for(int i=0;i<512;i++)
-            {
-              temp16_2[i]+=adc_ans[i];
-            }
-            
-        if	(index%Average_Number==0)
-        {
-            for(int i=0;i<512;i++)
-            {
-            temp16[i]=temp16_2[i]/Average_Number;
-            temp16_2[i]=0;
-
-            }
-            temp[0]=0xff;
-            temp[1]=0xff;
-            memcpy(temp+2,temp16,1024);
-            HAL_UART_Transmit_DMA(&huart1,temp,1026);
-        }
-				needreset2=1;
-				index++;
-			}
-			if(mul_int>mul_int_max)
-			{
-				mul_int=0;
-			}
-			if(needreset1==1&&needreset2==1)
-			{
-				__disable_irq();
-                mul_int++;
-				G_Clk_Rise_Number=0;
-				G_Hamamatsu_Trigger_Rise_Number_U8=0;
-				G_Hamamatsu_Trigger_Rise_Number=0;
-				__enable_irq();
-				needreset1=0;
-				needreset2=0;
-				thisneedtransfor=1;
-			}
+//			if(G_Clk_Rise_Number>=2080)
+//			{
+//				needreset1=1;
+//			}
+//			if(G_Hamamatsu_Trigger_Rise_Number>=512&&thisneedtransfor)
+//			{
+//                thisneedtransfor=0;
+//                for(int i=0;i<512;i++)
+//                {
+//                  temp16_2[i]+=adc_ans[i];
+//                }
+//
+//                if	(index%Average_Number==0)
+//                {
+//                    for(int i=0;i<512;i++)
+//                    {
+//                        temp16[i]=temp16_2[i]/Average_Number;
+//                        temp16_2[i]=0;
+//                    }
+//                    temp[0]=0xff;
+//                    temp[1]=0xff;
+//                    /****    void *memcpy(void *dest, const void *src, size_t n);    *****/
+//                    memcpy(temp+2,temp16,1024);
+//                    HAL_UART_Transmit_DMA(&huart1,temp,1026);
+//                }
+//                needreset2=1;
+//                index++;
+//			}
+//			if(mul_int>mul_int_max)
+//			{
+//				mul_int=0;
+//			}
+//			if(needreset1==1&&needreset2==1)
+//			{
+//				__disable_irq();
+//                mul_int++;
+//				G_Clk_Rise_Number=0;
+//				G_Hamamatsu_Trigger_Rise_Number_U8=0;
+//				G_Hamamatsu_Trigger_Rise_Number=0;
+//				__enable_irq();
+//				needreset1=0;
+//				needreset2=0;
+//				thisneedtransfor=1;
+//			}
 
 		}
 
