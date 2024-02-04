@@ -176,6 +176,30 @@ Core/Src/Control_Adjustment.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\S15909_H750.elf.dir\build.make CMakeFiles/S15909_H750.elf.dir/Core/Src/Control_Adjustment.c.s
 .PHONY : Core/Src/Control_Adjustment.c.s
 
+Core/Src/Dma_Send.obj: Core/Src/Dma_Send.c.obj
+.PHONY : Core/Src/Dma_Send.obj
+
+# target to build an object file
+Core/Src/Dma_Send.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\S15909_H750.elf.dir\build.make CMakeFiles/S15909_H750.elf.dir/Core/Src/Dma_Send.c.obj
+.PHONY : Core/Src/Dma_Send.c.obj
+
+Core/Src/Dma_Send.i: Core/Src/Dma_Send.c.i
+.PHONY : Core/Src/Dma_Send.i
+
+# target to preprocess a source file
+Core/Src/Dma_Send.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\S15909_H750.elf.dir\build.make CMakeFiles/S15909_H750.elf.dir/Core/Src/Dma_Send.c.i
+.PHONY : Core/Src/Dma_Send.c.i
+
+Core/Src/Dma_Send.s: Core/Src/Dma_Send.c.s
+.PHONY : Core/Src/Dma_Send.s
+
+# target to generate assembly for a file
+Core/Src/Dma_Send.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\S15909_H750.elf.dir\build.make CMakeFiles/S15909_H750.elf.dir/Core/Src/Dma_Send.c.s
+.PHONY : Core/Src/Dma_Send.c.s
+
 Core/Src/Get_Parameters.obj: Core/Src/Get_Parameters.c.obj
 .PHONY : Core/Src/Get_Parameters.obj
 
@@ -1159,6 +1183,9 @@ help:
 	@echo ... Core/Src/Control_Adjustment.obj
 	@echo ... Core/Src/Control_Adjustment.i
 	@echo ... Core/Src/Control_Adjustment.s
+	@echo ... Core/Src/Dma_Send.obj
+	@echo ... Core/Src/Dma_Send.i
+	@echo ... Core/Src/Dma_Send.s
 	@echo ... Core/Src/Get_Parameters.obj
 	@echo ... Core/Src/Get_Parameters.i
 	@echo ... Core/Src/Get_Parameters.s

@@ -62,6 +62,70 @@ CMakeFiles/S15909_H750.elf.dir/Core/Src/Control_Adjustment.c.obj: ../Core/Src/Co
   F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/types.h \
   F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/stdio.h
 
+CMakeFiles/S15909_H750.elf.dir/Core/Src/Dma_Send.c.obj: ../Core/Src/Dma_Send.c \
+  ../Core/Inc/Dma_Send.h \
+  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/stdint.h \
+  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/_default_types.h \
+  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/features.h \
+  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/_newlib_version.h \
+  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_intsup.h \
+  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_stdint.h \
+  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/string.h \
+  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/_ansi.h \
+  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/newlib.h \
+  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/config.h \
+  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/ieeefp.h \
+  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/reent.h \
+  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/_ansi.h \
+  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_types.h \
+  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/_types.h \
+  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/lock.h \
+  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/cdefs.h \
+  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_locale.h \
+  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/strings.h \
+  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/string.h \
+  ../Core/Inc/dma.h \
+  ../Core/Inc/main.h \
+  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
+  ../Core/Inc/stm32h7xx_hal_conf.h \
+  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
+  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h \
+  ../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h \
+  ../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h \
+  ../Drivers/CMSIS/Include/core_cm7.h \
+  ../Drivers/CMSIS/Include/cmsis_version.h \
+  ../Drivers/CMSIS/Include/cmsis_compiler.h \
+  ../Drivers/CMSIS/Include/cmsis_gcc.h \
+  ../Drivers/CMSIS/Include/mpu_armv7.h \
+  ../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h \
+  ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/math.h \
+  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
+  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h \
+  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h \
+  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h \
+  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h \
+  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h \
+  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h \
+  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h \
+  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc.h \
+  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_adc.h \
+  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc_ex.h \
+  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h \
+  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h \
+  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h \
+  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h \
+  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h \
+  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h \
+  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h \
+  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
+  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
+  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
+  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h \
+  ../Core/Inc/usart.h
+
 CMakeFiles/S15909_H750.elf.dir/Core/Src/Get_Parameters.c.obj: ../Core/Src/Get_Parameters.c \
   ../Core/Inc/Get_Parameters.h \
   F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/stdio.h \
@@ -603,18 +667,21 @@ CMakeFiles/S15909_H750.elf.dir/Core/Src/main.c.obj: ../Core/Src/main.c \
   F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/stdio.h \
   F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
   F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/stdio.h \
+  ../Core/Inc/SerialDataProcess.h \
+  ../Core/Inc/Judge.h \
   F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/string.h \
   F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/strings.h \
   F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/string.h \
-  ../Core/Inc/SerialDataProcess.h \
-  ../Core/Inc/Judge.h \
   ../Core/Inc/Get_Parameters.h \
   ../Core/Inc/Control_Adjustment.h \
   ../Core/Inc/cJSON_Test.h \
   ../Core/Inc/cJSON.h \
   ../Core/Inc/Store_Information.h \
   ../Core/Inc/cJSON_Test.h \
-  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h
+  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  ../Core/Inc/Dma_Send.h \
+  ../Core/Inc/dma.h \
+  ../Core/Inc/usart.h
 
 CMakeFiles/S15909_H750.elf.dir/Core/Src/retarget.c.obj: ../Core/Src/retarget.c \
   F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/_ansi.h \
@@ -2305,9 +2372,9 @@ F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi
 
 F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/_default_types.h:
 
-F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/stdint.h:
-
 ../Core/Inc/cJSON_Test.h:
+
+F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/stdint.h:
 
 ../Core/Inc/stm32h7xx_hal_conf.h:
 
@@ -2319,21 +2386,25 @@ F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi
 
 F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_stdint.h:
 
+../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h:
+
 ../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c:
 
 ../Core/Inc/Communication_struct.h:
 
 F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/string.h:
 
+../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h:
+
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:
 
 F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/_ansi.h:
 
-../Drivers/CMSIS/Include/core_cm7.h:
+F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/newlib.h:
 
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h:
 
-F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/newlib.h:
+../Drivers/CMSIS/Include/core_cm7.h:
 
 F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/config.h:
 
@@ -2365,9 +2436,9 @@ F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi
 
 F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_locale.h:
 
-F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/strings.h:
-
 ../Core/Inc/Store_Information.h:
+
+F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/strings.h:
 
 ../Core/Src/Control_Adjustment.c:
 
@@ -2375,21 +2446,19 @@ F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi
 
 ../Core/Inc/Control_Adjustment.h:
 
-F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h:
-
 F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/stdio.h:
 
 F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_timespec.h:
 
 F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h:
 
+../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h:
+
 F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/endian.h:
 
 F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/types.h:
 
 ../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h:
-
-../Core/Src/SerialDataProcess.c:
 
 ../Core/Inc/retarget.h:
 
@@ -2403,17 +2472,9 @@ F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi
 
 F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/stdio.h:
 
-../Core/Inc/Get_Parameters.h:
+../Core/Src/Dma_Send.c:
 
-../Core/Src/Judge.c:
-
-../Drivers/CMSIS/Include/cmsis_compiler.h:
-
-../Core/Inc/Judge.h:
-
-../Core/Inc/cJSON.h:
-
-../Core/Inc/usart.h:
+../Core/Inc/Dma_Send.h:
 
 ../Drivers/CMSIS/Include/cmsis_gcc.h:
 
@@ -2421,9 +2482,17 @@ F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi
 
 ../Core/Inc/main.h:
 
+../Core/Inc/dma.h:
+
+F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/_time.h:
+
+../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h:
+
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h:
 
 ../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h:
+
+../Drivers/CMSIS/Include/cmsis_compiler.h:
 
 ../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h:
 
@@ -2432,16 +2501,6 @@ F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi
 F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/math.h:
 
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h:
-
-../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h:
-
-../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h:
-
-../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h:
-
-F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/_time.h:
-
-../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h:
 
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h:
 
@@ -2481,6 +2540,20 @@ F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi
 
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h:
 
+../Core/Inc/usart.h:
+
+../Core/Inc/Get_Parameters.h:
+
+../Core/Src/Judge.c:
+
+../Core/Inc/Judge.h:
+
+../Core/Inc/cJSON.h:
+
+../Core/Src/SerialDataProcess.c:
+
+F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h:
+
 F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/stat.h:
 
 F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/stdlib.h:
@@ -2512,8 +2585,6 @@ F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi
 F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/float.h:
 
 ../Core/Src/cJSON_Test.c:
-
-../Core/Inc/dma.h:
 
 ../Core/Inc/gpio.h:
 

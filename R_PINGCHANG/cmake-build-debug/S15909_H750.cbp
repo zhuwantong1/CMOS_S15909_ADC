@@ -105,6 +105,9 @@
 		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Inc/Control_Adjustment.h">
 			<Option target="S15909_H750.elf"/>
 		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Inc/Dma_Send.h">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
 		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Inc/Get_Parameters.h">
 			<Option target="S15909_H750.elf"/>
 		</Unit>
@@ -154,6 +157,9 @@
 			<Option target="S15909_H750.elf"/>
 		</Unit>
 		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Src/Control_Adjustment.c">
+			<Option target="S15909_H750.elf"/>
+		</Unit>
+		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Src/Dma_Send.c">
 			<Option target="S15909_H750.elf"/>
 		</Unit>
 		<Unit filename="D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Src/Get_Parameters.c">

@@ -32,6 +32,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Src/Communication_Protocol.c" "CMakeFiles/S15909_H750.elf.dir/Core/Src/Communication_Protocol.c.obj" "gcc" "CMakeFiles/S15909_H750.elf.dir/Core/Src/Communication_Protocol.c.obj.d"
   "D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Src/Control_Adjustment.c" "CMakeFiles/S15909_H750.elf.dir/Core/Src/Control_Adjustment.c.obj" "gcc" "CMakeFiles/S15909_H750.elf.dir/Core/Src/Control_Adjustment.c.obj.d"
+  "D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Src/Dma_Send.c" "CMakeFiles/S15909_H750.elf.dir/Core/Src/Dma_Send.c.obj" "gcc" "CMakeFiles/S15909_H750.elf.dir/Core/Src/Dma_Send.c.obj.d"
   "D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Src/Get_Parameters.c" "CMakeFiles/S15909_H750.elf.dir/Core/Src/Get_Parameters.c.obj" "gcc" "CMakeFiles/S15909_H750.elf.dir/Core/Src/Get_Parameters.c.obj.d"
   "D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Src/Judge.c" "CMakeFiles/S15909_H750.elf.dir/Core/Src/Judge.c.obj" "gcc" "CMakeFiles/S15909_H750.elf.dir/Core/Src/Judge.c.obj.d"
   "D:/01zhuwantong/COMS_S15909_ADC/R_PINGCHANG/Core/Src/SerialDataProcess.c" "CMakeFiles/S15909_H750.elf.dir/Core/Src/SerialDataProcess.c.obj" "gcc" "CMakeFiles/S15909_H750.elf.dir/Core/Src/SerialDataProcess.c.obj.d"

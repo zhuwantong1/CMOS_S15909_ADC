@@ -81,15 +81,18 @@ CMakeFiles/S15909_H750.elf.dir/Core/Src/main.c.obj: \
  f:\work\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\stdio.h \
  f:\work\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdarg.h \
  f:\work\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\stdio.h \
+ D:\01zhuwantong\COMS_S15909_ADC\R_PINGCHANG\Core\Inc/SerialDataProcess.h \
+ D:\01zhuwantong\COMS_S15909_ADC\R_PINGCHANG\Core\Inc/Judge.h \
  f:\work\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\string.h \
  f:\work\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\strings.h \
  f:\work\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\string.h \
- D:\01zhuwantong\COMS_S15909_ADC\R_PINGCHANG\Core\Inc/SerialDataProcess.h \
- D:\01zhuwantong\COMS_S15909_ADC\R_PINGCHANG\Core\Inc/Judge.h \
  D:\01zhuwantong\COMS_S15909_ADC\R_PINGCHANG\Core\Inc/Get_Parameters.h \
  D:\01zhuwantong\COMS_S15909_ADC\R_PINGCHANG\Core\Inc/Control_Adjustment.h \
  D:\01zhuwantong\COMS_S15909_ADC\R_PINGCHANG\Core\Inc/cJSON_Test.h \
  D:\01zhuwantong\COMS_S15909_ADC\R_PINGCHANG\Core\Inc/cJSON.h \
  D:\01zhuwantong\COMS_S15909_ADC\R_PINGCHANG\Core\Inc/Store_Information.h \
  D:\01zhuwantong\COMS_S15909_ADC\R_PINGCHANG\Core\Inc/cJSON_Test.h \
- f:\work\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdbool.h
+ f:\work\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdbool.h \
+ D:\01zhuwantong\COMS_S15909_ADC\R_PINGCHANG\Core\Inc/Dma_Send.h \
+ D:\01zhuwantong\COMS_S15909_ADC\R_PINGCHANG\Core\Inc/dma.h \
+ D:\01zhuwantong\COMS_S15909_ADC\R_PINGCHANG\Core\Inc/usart.h

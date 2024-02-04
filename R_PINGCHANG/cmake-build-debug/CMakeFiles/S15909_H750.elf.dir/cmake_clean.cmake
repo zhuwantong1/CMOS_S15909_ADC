@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/S15909_H750.elf.dir/Core/Src/Communication_Protocol.c.obj.d"
   "CMakeFiles/S15909_H750.elf.dir/Core/Src/Control_Adjustment.c.obj"
   "CMakeFiles/S15909_H750.elf.dir/Core/Src/Control_Adjustment.c.obj.d"
+  "CMakeFiles/S15909_H750.elf.dir/Core/Src/Dma_Send.c.obj"
+  "CMakeFiles/S15909_H750.elf.dir/Core/Src/Dma_Send.c.obj.d"
   "CMakeFiles/S15909_H750.elf.dir/Core/Src/Get_Parameters.c.obj"
   "CMakeFiles/S15909_H750.elf.dir/Core/Src/Get_Parameters.c.obj.d"
   "CMakeFiles/S15909_H750.elf.dir/Core/Src/Judge.c.obj"
