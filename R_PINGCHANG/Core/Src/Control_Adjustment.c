@@ -3,9 +3,5 @@
 //
 
 #include "Control_Adjustment.h"
+#include "cJSON_Test.h"
 
-void Control_St(uint8_t st_time){
-    int st= 0;
-    st = st_time;
-    printf("St = %d\n",st);
-}

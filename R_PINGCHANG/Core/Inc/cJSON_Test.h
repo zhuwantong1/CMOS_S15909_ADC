@@ -11,8 +11,8 @@ struct paramstruct {
     int production_date;
     int manufacturer;
     int Device_Pixel_Length;
-    uint8_t Set_Integration_Time;
-
+    uint8_t Set_Integration_Time;//积分时间最大100ms
+    uint8_t Average_Number;
 };
 
 void cjson(uint8_t g_usart_json_string[]);

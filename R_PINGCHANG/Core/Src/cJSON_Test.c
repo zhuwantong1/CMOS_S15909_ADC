@@ -18,10 +18,12 @@ void cjson(uint8_t g_usart_json_string[])
         cJSON *production_date   = cJSON_GetObjectItem(json, "production_date");
         cJSON *manufacturer = cJSON_GetObjectItem(json, "manufacturer");
         cJSON *Device_Pixel_Length = cJSON_GetObjectItem(json, "device_pixel_length");
-        cJSON *Set_Integration_Time = cJSON_GetObjectItem(json, "set_integration_time");
+        cJSON *Set_Integration_Time = cJSON_GetObjectItem(json, "Set_Integration_Time");
+        cJSON *Average_Number = cJSON_GetObjectItem(json, "Average_Number");
 
         if (temperature != NULL && pn != NULL && sn != NULL&& production_date != NULL
-            && manufacturer != NULL&&Device_Pixel_Length!=NULL&&Set_Integration_Time!=NULL) {
+            && manufacturer != NULL&&Device_Pixel_Length!=NULL&&Set_Integration_Time!=NULL&&Average_Number!=NULL)
+        {
             // 打印解析结果
 //            printf("Temperature: %d\n", temperature->valueint);
 //            printf("Pn:%d\n", pn  ->valueint);
@@ -38,7 +40,7 @@ void cjson(uint8_t g_usart_json_string[])
             Parameters.manufacturer = manufacturer->valueint;
             Parameters.Device_Pixel_Length = Device_Pixel_Length->valueint;
             Parameters.Set_Integration_Time = Set_Integration_Time->valueint;
-
+            Parameters.Average_Number = Average_Number->valueint;
         }
 
 
