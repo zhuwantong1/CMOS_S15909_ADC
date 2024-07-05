@@ -4,8 +4,6 @@
 #include <stdbool.h>
 #include "usart.h"
 #include "string.h"
-#include "stdio.h"
-#include "stdlib.h"
 #include "cJSON_Test.h"
 #include "SerialDataProcess.h"
 #include "Communication_Protocol.h"

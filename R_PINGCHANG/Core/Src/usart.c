@@ -21,12 +21,12 @@
 #include "usart.h"
 
 /* USER CODE BEGIN 0 */
-/* 接收缓冲, �?大USART_REC_LEN个字�?. */
+/* 接收缓冲, 最大USART_REC_LEN个字节. */
 uint8_t g_usart_rx_buf[USART_REC_LEN];
 
 /*  接收状�??
  *  bit15�?      接收完成标志
- *  bit14�?      接收�?0x0d
+ *  bit14�?      接收到0x0d
  *  bit13~0�?    接收到的有效字节数目
 */
 uint16_t g_usart_rx_sta = 0;
@@ -52,7 +52,7 @@ void MX_USART1_UART_Init(void)
 
   /* USER CODE END USART1_Init 1 */
   huart1.Instance = USART1;
-  huart1.Init.BaudRate = 921600;
+  huart1.Init.BaudRate = 115200;
   huart1.Init.WordLength = UART_WORDLENGTH_8B;
   huart1.Init.StopBits = UART_STOPBITS_1;
   huart1.Init.Parity = UART_PARITY_NONE;
@@ -187,7 +187,7 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
             {
                 if(g_rx_buffer[0] != 0x0a)
                 {
-                    g_usart_rx_sta = 0;                       /* 接收错误,重新�?�? */
+                    g_usart_rx_sta = 0;                       /* 接收错误,重新接收 */
                 }
                 else
                 {
@@ -206,7 +206,7 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
                     g_usart_rx_sta++;
                     if(g_usart_rx_sta > (USART_REC_LEN - 1))
                     {
-                        g_usart_rx_sta = 0;                   /* 接收数据错误,重新�?始接�? */
+                        g_usart_rx_sta = 0;                   /* 接收数据错误,重新开始接收 */
                     }
                 }
             }

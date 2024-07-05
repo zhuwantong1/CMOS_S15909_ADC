@@ -30,7 +30,7 @@ volatile int mul_int = 0;
 
 
 uint16_t adc_ans[540]={0};
-uint8_t adc_ans_u8[2080]={0};
+//uint8_t adc_ans_u8[2080]={0};
 /* USER CODE END 0 */
 
 TIM_HandleTypeDef htim1;
@@ -510,9 +510,9 @@ void HAL_TIM_IC_CaptureCallback(TIM_HandleTypeDef *htim)
         {
             adc_ans[G_Hamamatsu_Trigger_Rise_Number]=0xea60;
         }
-        adc_ans_u8[G_Hamamatsu_Trigger_Rise_Number_U8] = (uint8_t)(adc_ans[G_Hamamatsu_Trigger_Rise_Number] >> 8);//高8位
-        adc_ans_u8[G_Hamamatsu_Trigger_Rise_Number_U8+1]=(uint8_t)adc_ans[G_Hamamatsu_Trigger_Rise_Number];
-        G_Hamamatsu_Trigger_Rise_Number_U8=G_Hamamatsu_Trigger_Rise_Number_U8+2;
+//        adc_ans_u8[G_Hamamatsu_Trigger_Rise_Number_U8] = (uint8_t)(adc_ans[G_Hamamatsu_Trigger_Rise_Number] >> 8);//高8位
+//        adc_ans_u8[G_Hamamatsu_Trigger_Rise_Number_U8+1]=(uint8_t)adc_ans[G_Hamamatsu_Trigger_Rise_Number];
+//        G_Hamamatsu_Trigger_Rise_Number_U8=G_Hamamatsu_Trigger_Rise_Number_U8+2;
         G_Hamamatsu_Trigger_Rise_Number++;
     }
 }		

@@ -27,9 +27,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "retarget.h"
-
 #include "SerialDataProcess.h"
-#include "stdio.h" //对printf进行重定向
 #include <stdint.h>
 #include "Judge.h"
 #include "cJSON_Test.h"
@@ -132,11 +130,19 @@ int main(void)
   while (1)
   {
     SerialDataProcess();
-    if(Printf_Flag== true){
+    if(Printf_Flag== true)
+    {
         Judge();
         Printf_Flag = false;
     }
     DMA_Send();
+    /*
+
+
+
+   55 AA 00 77 00 7B 22 74 65 6D 70 65 72 61 74 75 72 65 22 3A 31 2C 22 70 6E 22 3A 31 2C 22 73 6E 22 3A 31 2C 22 70 72 6F 64 75 63 74 69 6F 6E 5F 64 61 74 65 22 3A 31 2C 22 6D 61 6E 75 66 61 63 74 75 72 65 72 22 3A 31 2C 22 73 65 74 5F 69 6E 74 65 67 72 61 74 69 6F 6E 5F 74 69 6D 65 22 3A 37 2C 22 64 65 76 69 63 65 5F 70 69 78 65 6C 5F 6C 65 6E 67 74 68 22 3A 31 7D 98 CA
+
+   */
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

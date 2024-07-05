@@ -5,5 +5,4 @@
 #include "Get_Parameters.h"
 float Get_Temperature(){
     return 1.00;
-
 }

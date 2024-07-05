@@ -15,37 +15,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3160c61-0585-4610-a05e-69c7dd0c4e0a" name="变更" comment="上传参考pdf">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/R_PINGCHANG/Core/Inc/SerialDataProcess.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/R_PINGCHANG/Core/Inc/cJSON.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/R_PINGCHANG/Core/Inc/cJSON_Test.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/R_PINGCHANG/Core/Src/SerialDataProcess.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/R_PINGCHANG/Core/Src/cJSON.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/R_PINGCHANG/Core/Src/cJSON_Test.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/通信协议脑图.excalidraw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/COMS_S15909_ADC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/COMS_S15909_ADC.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/R_PINGCHANG/Core/Inc/retarget.h" beforeDir="false" afterPath="$PROJECT_DIR$/R_PINGCHANG/Core/Inc/retarget.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/R_PINGCHANG/Core/Src/Get_Parameters.c" beforeDir="false" afterPath="$PROJECT_DIR$/R_PINGCHANG/Core/Src/Get_Parameters.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/R_PINGCHANG/Core/Src/SerialDataProcess.c" beforeDir="false" afterPath="$PROJECT_DIR$/R_PINGCHANG/Core/Src/SerialDataProcess.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/R_PINGCHANG/Core/Src/cJSON_Test.c" beforeDir="false" afterPath="$PROJECT_DIR$/R_PINGCHANG/Core/Src/cJSON_Test.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/R_PINGCHANG/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/R_PINGCHANG/Core/Src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/.cmake/api/v1/reply/cache-v2-f1aafa58fc995e800cda.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-04bf898136bfdb5d2953.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-1d06eb9c4598992308de.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/.cmake/api/v1/reply/index-2024-01-22T03-57-31-0613.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/.cmake/api/v1/reply/target-S15909_H750.elf-Debug-964cddcb064fff309cda.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/CMakeFiles/S15909_H750.elf.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/CMakeFiles/S15909_H750.elf.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/CMakeFiles/S15909_H750.elf.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/CMakeFiles/S15909_H750.elf.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/CMakeFiles/S15909_H750.elf.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/CMakeFiles/S15909_H750.elf.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/CMakeFiles/S15909_H750.elf.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/CMakeFiles/S15909_H750.elf.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/CMakeFiles/S15909_H750.elf.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/CMakeFiles/S15909_H750.elf.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/S15909_H750.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/S15909_H750.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/R_PINGCHANG/Core/Src/usart.c" beforeDir="false" afterPath="$PROJECT_DIR$/R_PINGCHANG/Core/Src/usart.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/CMakeFiles/S15909_H750.elf.dir/Core/Src/Get_Parameters.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/CMakeFiles/S15909_H750.elf.dir/Core/Src/Get_Parameters.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/CMakeFiles/S15909_H750.elf.dir/Core/Src/SerialDataProcess.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/CMakeFiles/S15909_H750.elf.dir/Core/Src/SerialDataProcess.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/CMakeFiles/S15909_H750.elf.dir/Core/Src/SerialDataProcess.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/CMakeFiles/S15909_H750.elf.dir/Core/Src/SerialDataProcess.c.obj.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/CMakeFiles/S15909_H750.elf.dir/Core/Src/cJSON_Test.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/CMakeFiles/S15909_H750.elf.dir/Core/Src/cJSON_Test.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/CMakeFiles/S15909_H750.elf.dir/Core/Src/cJSON_Test.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/CMakeFiles/S15909_H750.elf.dir/Core/Src/cJSON_Test.c.obj.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/CMakeFiles/S15909_H750.elf.dir/Core/Src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/CMakeFiles/S15909_H750.elf.dir/Core/Src/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/CMakeFiles/S15909_H750.elf.dir/compiler_depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/CMakeFiles/S15909_H750.elf.dir/compiler_depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/CMakeFiles/S15909_H750.elf.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/CMakeFiles/S15909_H750.elf.dir/compiler_depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/S15909_H750.elf" beforeDir="false" afterPath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/S15909_H750.elf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/S15909_H750.map" beforeDir="false" afterPath="$PROJECT_DIR$/R_PINGCHANG/cmake-build-debug/S15909_H750.map" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,17 +65,17 @@
     "WebServerToolWindowFactoryState": "false",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "last_opened_file_path": "D:/01zhuwantong/COMS_S15909_ADC_capture/chegnxu/R_PINGCHANG/S15909_H750.ioc",
+    "last_opened_file_path": "D:/cubecode/FreeRTOS01",
     "settings.editor.selected.configurable": "CPPToolchains"
   }
 }]]></component>
   <component name="RunManager" selected="OpenOCD 下载并运行.S15909_H750.elf">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="S15909_H750.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="S15909_H750" TARGET_NAME="S15909_H750.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="S15909_H750" RUN_TARGET_NAME="S15909_H750.elf">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="S15909_H750.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="S15909_H750" TARGET_NAME="S15909_H750.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="S15909_H750" RUN_TARGET_NAME="S15909_H750.elf">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -120,6 +105,7 @@
       <workItem from="1706162775958" duration="1761000" />
       <workItem from="1706251262864" duration="5026000" />
       <workItem from="1706490154965" duration="9128000" />
+      <workItem from="1714029427841" duration="2894000" />
     </task>
     <task id="LOCAL-00001" summary="上传参考pdf">
       <created>1706163853782</created>
