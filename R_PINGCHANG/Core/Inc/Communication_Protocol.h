@@ -2,40 +2,30 @@
 // Created by zhu on 2024/1/31.
 //
 
-#ifndef H750_CJSON_COMMUNICATION_PROTOCOL_H
-#define H750_CJSON_COMMUNICATION_PROTOCOL_H
-
-
-#ifndef COMMUNICATION_PROTOCOL_H
-#define COMMUNICATION_PROTOCOL_H
 
 
 #include <stdint.h>
 #include "Communication_struct.h"
-// DEFINE The protocol Here
-//Forexample
-//  #define MYCOMAN 0x02  //命令全大写
-// to_do ： define your protocol here
-/*-------------------------------------------------------------------------------------------------------------*/
 
 
 
+/**
+  ******************************************************************************
+  * @file           : IRIS_Method.h
+  * @author         : xin
+  * @brief          : None
+  * @attention      : None
+  * @date           : 2024/2/1
+  ******************************************************************************
+  */
 
+//
+// Created by xin on 2024/2/1.
+//
 
+#ifndef IRIS_COMMUNICATION_PROTOCOL_IRIS_METHOD_H
+#define IRIS_COMMUNICATION_PROTOCOL_IRIS_METHOD_H
 
-
-
-
-
-
-/*-------------------------------------------------------------------------------------------------------------*/
-/*
-在此之下开始定义一些函数
-
-
-
-
-*/
 #define ERROR_NOT_ENOUGH_DATA -200
 #define ERROR_HEADER -300
 #define ERROR_COMMAND -400
@@ -76,11 +66,6 @@ int32_t IRIS_Check_Data_Valid(uint8_t *PackData, uint16_t LenthofIn );
 
 // 返回CRC校验值
 uint16_t IRIS_calcCRC(const void *pBuffer, uint16_t bufferSize);
-#endif
 
+#endif //IRIS_COMMUNICATION_PROTOCOL_IRIS_METHOD_H
 
-
-
-
-
-#endif //H750_CJSON_COMMUNICATION_PROTOCOL_H

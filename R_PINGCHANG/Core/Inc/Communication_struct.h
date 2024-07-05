@@ -1,10 +1,6 @@
 //
 // Created by zhu on 2024/1/31.
 //
-
-#ifndef H750_CJSON_COMMUNICATION_STRUCT_H
-#define H750_CJSON_COMMUNICATION_STRUCT_H
-
 #ifndef COMMUNICATION_STRUCT_H
 #define COMMUNICATION_STRUCT_H
 
@@ -41,6 +37,3 @@ struct MyComan_Recv_struct //对应的命令结构体 小驼峰命名法+Recv_st
 
 
 #endif // COMMUNICATION_STRUCT_H
-
-
-#endif //H750_CJSON_COMMUNICATION_STRUCT_H
