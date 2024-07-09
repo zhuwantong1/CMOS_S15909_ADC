@@ -13,6 +13,8 @@ struct paramstruct {
     int Device_Pixel_Length;
     uint8_t Set_Integration_Time;//积分时间最大100ms
     uint8_t Average_Number;
+    int pixel_segment_1;
+    int pixel_segment_2;  //segment_2最大为2048
 };
 
 void cjson(uint8_t g_usart_json_string[]);

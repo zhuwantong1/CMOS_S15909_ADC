@@ -27,7 +27,8 @@
 #include "gpio.h"
 
 volatile int mul_int = 0;
-
+volatile int Segment_1 =400;
+volatile int Segment_2 =1400;
 
 uint16_t adc_ans[540]={0};
 //uint8_t adc_ans_u8[2080]={0};
@@ -249,7 +250,7 @@ void MX_TIM12_Init(void)
     Error_Handler();
   }
   /* USER CODE BEGIN TIM12_Init 2 */
-		HAL_TIM_IC_Start_IT(&htim12, TIM_CHANNEL_1);              // 启用捕获中断
+		//HAL_TIM_IC_Start_IT(&htim12, TIM_CHANNEL_1);              // 启用捕获中断
   /* USER CODE END TIM12_Init 2 */
 
 }
@@ -478,11 +479,11 @@ void HAL_TIM_IC_CaptureCallback(TIM_HandleTypeDef *htim)
         }
         if(mul_int<mul_int_max)	//在这里完成EX_INT的高低电平输出,上升沿EX_INT发生变化
         {
-            if(G_Clk_Rise_Number>1&&G_Clk_Rise_Number<400)
+            if(G_Clk_Rise_Number>1&&G_Clk_Rise_Number<Segment_1)
             {
                 HAL_GPIO_WritePin(GPIOA, EX_INT_Pin, GPIO_PIN_SET); 	  //拉高ex-int
             }
-            else if(G_Clk_Rise_Number>=400&&G_Clk_Rise_Number<1400)
+            else if(G_Clk_Rise_Number>=Segment_1&&G_Clk_Rise_Number<Segment_2)
             {
                 HAL_GPIO_WritePin(GPIOA, EX_INT_Pin, GPIO_PIN_RESET);  	//拉低ex-int，积分
             }

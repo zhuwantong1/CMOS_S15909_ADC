@@ -10,7 +10,7 @@ char pn_number[12]; // 11 字节存储 pn 号，再加一个字节用于存放�
 char sn_number[9];
 char Product_Time[9];
 char Manufacturer[7];
-char Device_Pixel_Length[4];
+char Device_Pixel_Length[10];
 uint8_t  Set_Integration_Time = 1;
 
 void Printf_Pn_Number() {

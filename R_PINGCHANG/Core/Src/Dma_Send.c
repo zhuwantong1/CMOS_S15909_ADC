@@ -8,8 +8,8 @@ static uint8_t  temp[1040];
 static uint16_t temp16[512];
 static uint32_t temp16_2[512];
 
-int Average_Number=25;
-volatile int mul_int_max = 0;
+volatile int Average_Number=50;
+volatile int mul_int_max = 1;
 volatile int G_Clk_Rise_Number = 0;
 volatile int G_Hamamatsu_Trigger_Rise_Number_U8 = 0;
 volatile int G_Hamamatsu_Trigger_Rise_Number=0;
@@ -19,7 +19,7 @@ int index_count = 0;
 int needreset1=0;
 int needreset2=1;
 int thisneedtransfor=1;
-uint8_t delay_ms=10;
+uint8_t delay_ms=3;
 extern struct paramstruct Parameters;
 
 void  DMA_Send(){

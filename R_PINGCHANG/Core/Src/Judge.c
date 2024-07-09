@@ -7,6 +7,8 @@
 
 extern int Average_Number;
 extern uint8_t delay_ms;
+extern int Segment_1;
+extern int Segment_2;
 void Judge(){
     struct paramstruct *ParamStructPtr;
     ParamStructPtr = GetParametesptr();
@@ -43,6 +45,18 @@ void Judge(){
     {
         Average_Number=ParamStructPtr->Average_Number;
         printf("Average_Number: %d\r\n",Average_Number);
+    }
+    if(ParamStructPtr->pixel_segment_1>=0&&ParamStructPtr ->pixel_segment_2>=0)
+    {
+        if(ParamStructPtr->pixel_segment_2>2048)
+        {
+            ParamStructPtr->pixel_segment_2=2048;
+        }
+        Segment_1 = ParamStructPtr -> pixel_segment_1;
+        Segment_2 = ParamStructPtr -> pixel_segment_2;
+        printf("Segment_1: %d\r\n",Segment_1);
+        printf("Segment_2: %d\r\n",Segment_2);
+
     }
 
 
