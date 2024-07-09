@@ -25,7 +25,7 @@
 #include "adc.h"
 #include "usart.h"
 #include "gpio.h"
-
+#include "stdbool.h"
 volatile int mul_int = 0;
 volatile int Segment_1 =400;
 volatile int Segment_2 =1400;
@@ -464,7 +464,7 @@ void HAL_TIM_PWM_MspDeInit(TIM_HandleTypeDef* tim_pwmHandle)
 }
 
 /* USER CODE BEGIN 1 */
-
+bool set_high = false;
 void HAL_TIM_IC_CaptureCallback(TIM_HandleTypeDef *htim) 
 {
     if (htim->Instance == TIM1 && htim->Channel == HAL_TIM_ACTIVE_CHANNEL_1) //捕获上升沿
@@ -491,13 +491,15 @@ void HAL_TIM_IC_CaptureCallback(TIM_HandleTypeDef *htim)
             {
                 HAL_GPIO_WritePin(GPIOA, EX_INT_Pin, GPIO_PIN_SET);  		//拉高ex-int
             }
+            set_high = true;
         }
-        else
+        else if(mul_int==mul_int_max&&set_high == true)
         {
             if(G_Clk_Rise_Number>1)
             {
                 HAL_GPIO_WritePin(GPIOA, EX_INT_Pin, GPIO_PIN_SET);			 //拉高ex-int
             }
+            set_high = false;
 
         }
         G_Clk_Rise_Number++;

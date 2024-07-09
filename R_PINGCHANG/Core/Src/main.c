@@ -68,6 +68,7 @@ static void MPU_Config(void);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 bool Printf_Flag = true;
+
 /* USER CODE END 0 */
 
 /**
