@@ -63,4 +63,5 @@ CMakeFiles/S15909_H750.elf.dir/Core/Src/Dma_Send.c.obj: \
  D:\01zhuwantong\COMS_S15909_ADC\R_PINGCHANG\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_uart_ex.h \
  D:\01zhuwantong\COMS_S15909_ADC\R_PINGCHANG\Core\Inc/usart.h \
  D:\01zhuwantong\COMS_S15909_ADC\R_PINGCHANG\Core\Inc/cJSON_Test.h \
- D:\01zhuwantong\COMS_S15909_ADC\R_PINGCHANG\Core\Inc/cJSON.h
+ D:\01zhuwantong\COMS_S15909_ADC\R_PINGCHANG\Core\Inc/cJSON.h \
+ f:\work\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdbool.h

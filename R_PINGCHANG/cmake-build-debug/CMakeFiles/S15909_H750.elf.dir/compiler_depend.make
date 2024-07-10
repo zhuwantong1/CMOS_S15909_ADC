@@ -128,7 +128,8 @@ CMakeFiles/S15909_H750.elf.dir/Core/Src/Dma_Send.c.obj: ../Core/Src/Dma_Send.c \
   ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h \
   ../Core/Inc/usart.h \
   ../Core/Inc/cJSON_Test.h \
-  ../Core/Inc/cJSON.h
+  ../Core/Inc/cJSON.h \
+  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h
 
 CMakeFiles/S15909_H750.elf.dir/Core/Src/Get_Parameters.c.obj: ../Core/Src/Get_Parameters.c \
   ../Core/Inc/Get_Parameters.h \
@@ -2525,6 +2526,8 @@ F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi
 
 ../Core/Inc/usart.h:
 
+F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h:
+
 ../Core/Inc/Get_Parameters.h:
 
 ../Core/Src/Judge.c:
@@ -2532,8 +2535,6 @@ F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi
 ../Core/Inc/Judge.h:
 
 ../Core/Src/SerialDataProcess.c:
-
-F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h:
 
 ../Core/Inc/SerialDataProcess.h:
 

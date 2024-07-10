@@ -4,12 +4,13 @@
 
 #include "Dma_Send.h"
 #include "cJSON_Test.h"
+#include "stdbool.h"
 static uint8_t  temp[1040];
 static uint16_t temp16[512];
 static uint32_t temp16_2[512];
 
 volatile int Average_Number=24;
-volatile int mul_int_max = 3;//积分n次，输出结果为n+1倍
+volatile int mul_int_max = 1;//积分n次，输出结果为n+1倍
 volatile int G_Clk_Rise_Number = 0;
 volatile int G_Hamamatsu_Trigger_Rise_Number_U8 = 0;
 volatile int G_Hamamatsu_Trigger_Rise_Number=0;
@@ -20,8 +21,9 @@ int needreset1=0;
 int needreset2=1;
 int thisneedtransfor=1;
 volatile uint8_t delay_ms=13;
-extern struct paramstruct Parameters;
 
+extern struct paramstruct Parameters;
+extern bool set_high;
 void  DMA_Send(){
 
     if(G_Clk_Rise_Number>=2080)
@@ -61,6 +63,7 @@ void  DMA_Send(){
         if(mul_int==mul_int_max)
         {
             index_count++;
+            set_high = true;
         }
         else
         {
