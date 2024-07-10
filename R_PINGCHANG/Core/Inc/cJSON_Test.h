@@ -17,6 +17,7 @@ struct paramstruct {
     uint8_t Average_Number;
     int pixel_segment_1;
     int pixel_segment_2;  //segment_2×î´óÎª2048
+    uint8_t mul_int_max;
 };
 
 void cjson(uint8_t g_usart_json_string[]);

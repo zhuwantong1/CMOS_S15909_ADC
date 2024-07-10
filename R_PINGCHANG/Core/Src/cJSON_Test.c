@@ -18,15 +18,16 @@ void cjson(uint8_t g_usart_json_string[])
         cJSON *production_date   = cJSON_GetObjectItem(json, "production_date");
         cJSON *manufacturer = cJSON_GetObjectItem(json, "manufacturer");
         cJSON *Device_Pixel_Length = cJSON_GetObjectItem(json, "device_pixel_length");
-        cJSON *Min_Integration_Time = cJSON_GetObjectItem(json, "min_integration_time");
-        cJSON *Max_Integration_Time = cJSON_GetObjectItem(json, "max_integration_time");
+        cJSON *Min_Integration_Time = cJSON_GetObjectItem(json, "min_in_time");
+        cJSON *Max_Integration_Time = cJSON_GetObjectItem(json, "max_in_time");
         cJSON *Set_Integration_Time = cJSON_GetObjectItem(json, "set_integration_time");
         cJSON *Average_Number = cJSON_GetObjectItem(json, "average_number");
-        cJSON *pixel_segment_1 = cJSON_GetObjectItem(json, "pixel_segment_1");
-        cJSON *pixel_segment_2 = cJSON_GetObjectItem(json, "pixel_segment_2");
+        cJSON *pixel_segment_1 = cJSON_GetObjectItem(json, "segment_1");
+        cJSON *pixel_segment_2 = cJSON_GetObjectItem(json, "segment_2");
+        cJSON *mul_int_max =  cJSON_GetObjectItem(json, "mul_max");
         if (temperature != NULL && pn != NULL && sn != NULL&& production_date != NULL
             && manufacturer != NULL&&Device_Pixel_Length!=NULL&&Min_Integration_Time!=NULL&&Max_Integration_Time!=NULL
-            && Set_Integration_Time!=NULL&& Average_Number!=NULL&&pixel_segment_1!=NULL&&pixel_segment_2!=NULL)
+            && Set_Integration_Time!=NULL&& Average_Number!=NULL&&pixel_segment_1!=NULL&&pixel_segment_2!=NULL&&mul_int_max!=NULL)//
         {
             // 打印解析结果
 //            printf("Temperature: %d\n", temperature->valueint);
@@ -49,6 +50,7 @@ void cjson(uint8_t g_usart_json_string[])
             Parameters.Average_Number = Average_Number->valueint;
             Parameters.pixel_segment_1 = pixel_segment_1->valueint;
             Parameters.pixel_segment_2 = pixel_segment_2->valueint;
+            Parameters.mul_int_max =  mul_int_max->valueint;
         }
 
 

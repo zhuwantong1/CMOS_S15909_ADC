@@ -9,6 +9,7 @@ extern volatile int Average_Number;
 extern volatile uint8_t delay_ms;
 extern volatile int Segment_1;
 extern volatile int Segment_2;
+extern volatile int mul_int_max;
 void Judge(){
     struct paramstruct *ParamStructPtr;
     ParamStructPtr = GetParametesptr();
@@ -77,6 +78,20 @@ void Judge(){
         printf("Segment_2: %d\r\n",Segment_2);
 
     }
+    if(ParamStructPtr ->mul_int_max>=0)
+    {
+        if(ParamStructPtr ->mul_int_max>5)
+        {
+            mul_int_max = 5;
+        }
+        else
+        {
+            mul_int_max= ParamStructPtr ->mul_int_max;
+        }
+        printf("mul_int_max: %d\r\n",mul_int_max);
+
+    }
+
 
 
 
