@@ -8,18 +8,18 @@ static uint8_t  temp[1040];
 static uint16_t temp16[512];
 static uint32_t temp16_2[512];
 
-volatile int Average_Number=10;
-volatile int mul_int_max = 1;
+volatile int Average_Number=24;
+volatile int mul_int_max = 3;//积分n次，输出结果为n+1倍
 volatile int G_Clk_Rise_Number = 0;
 volatile int G_Hamamatsu_Trigger_Rise_Number_U8 = 0;
 volatile int G_Hamamatsu_Trigger_Rise_Number=0;
 
 
-int index_count = 0;
+int index_count = -1;
 int needreset1=0;
 int needreset2=1;
 int thisneedtransfor=1;
-uint8_t delay_ms=3;
+volatile uint8_t delay_ms=13;
 extern struct paramstruct Parameters;
 
 void  DMA_Send(){
@@ -33,7 +33,7 @@ void  DMA_Send(){
     {
         __disable_irq();
         thisneedtransfor=0;
-        if(mul_int==mul_int_max)
+        if(mul_int==mul_int_max&&index_count>0)//这里舍弃前两次得到的数据，不用考虑发送耽搁的积分时间
         {
             for(int i=0;i<512;i++)
             {
@@ -42,6 +42,7 @@ void  DMA_Send(){
         }
 
             //这里使用index_count%Average_Number==0，会出bug，用下面的方法不会出现，问题还没找到原因
+            //原因是当index_count为0时也会执行下边的代码
         if	(index_count==Average_Number)//如果没有到达50次平均那就接着采集，达到50次之后再取平均值，dma发送
         {
             for(int i=0;i<512;i++)
@@ -54,7 +55,7 @@ void  DMA_Send(){
             /****    void *memcpy(void *dest, const void *src, size_t n);    *****/
             memcpy(temp+2,temp16,1024);
             HAL_UART_Transmit_DMA(&huart1,temp,1026);
-            index_count = 0;
+            index_count = -1;
         }
         needreset2=1;
         if(mul_int==mul_int_max)
@@ -68,7 +69,7 @@ void  DMA_Send(){
 //        index_count++;
         __enable_irq();
 //        RCCdelay_us(2);
-        HAL_Delay(delay_ms);
+        HAL_Delay(delay_ms-10);
 
     }
     if(mul_int>mul_int_max)

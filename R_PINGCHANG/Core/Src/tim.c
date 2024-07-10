@@ -27,8 +27,8 @@
 #include "gpio.h"
 #include "stdbool.h"
 volatile int mul_int = 0;
-volatile int Segment_1 =400;
-volatile int Segment_2 =1400;
+volatile int Segment_1 =100;
+volatile int Segment_2 =350;
 
 uint16_t adc_ans[540]={0};
 //uint8_t adc_ans_u8[2080]={0};
@@ -479,11 +479,11 @@ void HAL_TIM_IC_CaptureCallback(TIM_HandleTypeDef *htim)
         }
         if(mul_int<mul_int_max)	//在这里完成EX_INT的高低电平输出,上升沿EX_INT发生变化
         {
-            if(G_Clk_Rise_Number>1&&G_Clk_Rise_Number<Segment_1)
+            if(G_Clk_Rise_Number>1&&G_Clk_Rise_Number<Segment_1*4)
             {
                 HAL_GPIO_WritePin(GPIOA, EX_INT_Pin, GPIO_PIN_SET); 	  //拉高ex-int
             }
-            else if(G_Clk_Rise_Number>=Segment_1&&G_Clk_Rise_Number<Segment_2)
+            else if(G_Clk_Rise_Number>=Segment_1*4&&G_Clk_Rise_Number<Segment_2*4)
             {
                 HAL_GPIO_WritePin(GPIOA, EX_INT_Pin, GPIO_PIN_RESET);  	//拉低ex-int，积分
             }

@@ -15,3 +15,21 @@
 可以使用json文件进行积分时间设置和平均次数设置，一定要有个默认值，否则程序容易出bug卡死。
 温度获取还没搞。
 	不知道为什么当没有光照时，会有2500左右的dn值。
+
+	/*
+        {
+          "command": 1,
+          "temperature": 1,
+          "pn": 1,
+          "sn": 1,
+          "production_date": 1,
+          "manufacturer": 1,
+          "min_integration_time":1,
+          "max_integration_time":1,
+          "set_integration_time": 16,
+          "device_pixel_length": 1,
+          "average_number": 50,
+          "pixel_segment_1": 50,
+          "pixel_segment_2": 462
+        }
+	*/

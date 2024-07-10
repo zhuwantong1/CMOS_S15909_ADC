@@ -5,10 +5,10 @@
 #include "Judge.h"
 #include "cJSON_Test.h"
 
-extern int Average_Number;
-extern uint8_t delay_ms;
-extern int Segment_1;
-extern int Segment_2;
+extern volatile int Average_Number;
+extern volatile uint8_t delay_ms;
+extern volatile int Segment_1;
+extern volatile int Segment_2;
 void Judge(){
     struct paramstruct *ParamStructPtr;
     ParamStructPtr = GetParametesptr();
@@ -37,8 +37,27 @@ void Judge(){
     {
         printf("Temperature:%.1f\r\n",Get_Temperature());
     }
+    if(ParamStructPtr->Min_Integration_Time==1)
+    {
+        Printf_Min_Integration_Time();
+    }
+    if(ParamStructPtr->Max_Integration_Time==1)
+    {
+        Printf_Max_Integration_Time();
+    }
     if(ParamStructPtr->Set_Integration_Time!=0){
-        delay_ms = ParamStructPtr->Set_Integration_Time;
+        if(ParamStructPtr->Set_Integration_Time<10)
+        {
+            delay_ms=10;
+        }
+        else if(ParamStructPtr->Set_Integration_Time>100)
+        {
+            delay_ms=100;
+        }
+        else
+        {
+            delay_ms = ParamStructPtr->Set_Integration_Time;
+        }
         printf("Set_Integration_Time: %d\r\n",delay_ms);
     }
     if(ParamStructPtr->Average_Number!=0)
@@ -48,9 +67,9 @@ void Judge(){
     }
     if(ParamStructPtr->pixel_segment_1>=0&&ParamStructPtr ->pixel_segment_2>=0)
     {
-        if(ParamStructPtr->pixel_segment_2>2048)
+        if(ParamStructPtr->pixel_segment_2>512)
         {
-            ParamStructPtr->pixel_segment_2=2048;
+            ParamStructPtr->pixel_segment_2=512;
         }
         Segment_1 = ParamStructPtr -> pixel_segment_1;
         Segment_2 = ParamStructPtr -> pixel_segment_2;

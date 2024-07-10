@@ -9,8 +9,9 @@
 void Printf_Pn_Number();
 void Printf_Sn_Number();
 void Printf_Product_Time();
-void  Printf_Manufacturer();
-void  Printf_Device_Pixel_Length();
-
+void Printf_Manufacturer();
+void Printf_Device_Pixel_Length();
+void Printf_Min_Integration_Time();
+void Printf_Max_Integration_Time();
 
 #endif //H750_CJSON_STORE_INFORMATION_H

@@ -11,25 +11,32 @@ char sn_number[9];
 char Product_Time[9];
 char Manufacturer[7];
 char Device_Pixel_Length[10];
-uint8_t  Set_Integration_Time = 1;
+uint8_t  Min_Integration_Time = 10;
+uint8_t  Max_Integration_Time = 100;
 
 void Printf_Pn_Number() {
     strcpy(pn_number, "IRIS_ZHU_01");
-    printf("%s\n", pn_number);
+    printf("PN: %s\r\n", pn_number);
 }
 void Printf_Sn_Number() {
     strcpy(sn_number, "Sensor_1");
-    printf("%s\n", sn_number);
+    printf("SN: %s\r\n", sn_number);
 }
 void Printf_Product_Time() {
     strcpy(Product_Time, "20240131");
-    printf("%s\n", Product_Time);
+    printf("Production Date: %s\r\n", Product_Time);
 }
 void  Printf_Manufacturer() {
     strcpy(Manufacturer, "Iris");
-    printf("%s\n", Manufacturer);
+    printf("Manufacturer: %s\r\n", Manufacturer);
 }
 void  Printf_Device_Pixel_Length() {
     strcpy(Device_Pixel_Length, "512");
-    printf("%s\n", Device_Pixel_Length);
+    printf("Device pixel length: %s\r\n", Device_Pixel_Length);
+}
+void  Printf_Min_Integration_Time() {
+    printf("Min Integration Time: %d\r\n", Min_Integration_Time);
+}
+void  Printf_Max_Integration_Time() {
+    printf("Max Integration Time: %d\r\n", Max_Integration_Time);
 }
