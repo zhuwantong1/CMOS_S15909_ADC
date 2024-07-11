@@ -206,7 +206,53 @@ CMakeFiles/S15909_H750.elf.dir/Core/Src/Judge.c.obj: ../Core/Src/Judge.c \
   ../Core/Inc/cJSON_Test.h \
   ../Core/Inc/cJSON.h \
   ../Core/Inc/Store_Information.h \
-  ../Core/Inc/cJSON_Test.h
+  ../Core/Inc/cJSON_Test.h \
+  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/stdlib.h \
+  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/stdlib.h \
+  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/alloca.h \
+  ../Core/Inc/cJSON.h \
+  ../Core/Inc/Dma_Send.h \
+  ../Core/Inc/dma.h \
+  ../Core/Inc/main.h \
+  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
+  ../Core/Inc/stm32h7xx_hal_conf.h \
+  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
+  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h \
+  ../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h \
+  ../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h \
+  ../Drivers/CMSIS/Include/core_cm7.h \
+  ../Drivers/CMSIS/Include/cmsis_version.h \
+  ../Drivers/CMSIS/Include/cmsis_compiler.h \
+  ../Drivers/CMSIS/Include/cmsis_gcc.h \
+  ../Drivers/CMSIS/Include/mpu_armv7.h \
+  ../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h \
+  ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/math.h \
+  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
+  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h \
+  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h \
+  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h \
+  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h \
+  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h \
+  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h \
+  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h \
+  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc.h \
+  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_adc.h \
+  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc_ex.h \
+  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h \
+  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h \
+  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h \
+  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h \
+  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h \
+  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h \
+  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h \
+  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
+  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
+  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
+  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h \
+  ../Core/Inc/usart.h \
+  ../Core/Inc/Communication_Protocol.h \
+  ../Core/Inc/Communication_struct.h
 
 CMakeFiles/S15909_H750.elf.dir/Core/Src/SerialDataProcess.c.obj: ../Core/Src/SerialDataProcess.c \
   F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
@@ -276,41 +322,7 @@ CMakeFiles/S15909_H750.elf.dir/Core/Src/SerialDataProcess.c.obj: ../Core/Src/Ser
   ../Core/Inc/Communication_Protocol.h \
   ../Core/Inc/Communication_struct.h
 
-CMakeFiles/S15909_H750.elf.dir/Core/Src/Store_Information.c.obj: ../Core/Src/Store_Information.c \
-  ../Core/Inc/Store_Information.h \
-  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/string.h \
-  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/_ansi.h \
-  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/newlib.h \
-  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/_newlib_version.h \
-  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/config.h \
-  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/ieeefp.h \
-  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/features.h \
-  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/reent.h \
-  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/_ansi.h \
-  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_types.h \
-  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/_types.h \
-  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/_default_types.h \
-  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/lock.h \
-  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/cdefs.h \
-  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_locale.h \
-  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/strings.h \
-  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/string.h \
-  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/stdio.h \
-  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
-  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/types.h \
-  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_stdint.h \
-  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/endian.h \
-  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/_endian.h \
-  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/select.h \
-  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_sigset.h \
-  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_timeval.h \
-  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/timespec.h \
-  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_timespec.h \
-  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_pthreadtypes.h \
-  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/sched.h \
-  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/types.h \
-  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/stdio.h
+CMakeFiles/S15909_H750.elf.dir/Core/Src/Store_Information.c.obj: ../Core/Src/Store_Information.c
 
 CMakeFiles/S15909_H750.elf.dir/Core/Src/adc.c.obj: ../Core/Src/adc.c \
   ../Core/Inc/adc.h \
@@ -448,7 +460,11 @@ CMakeFiles/S15909_H750.elf.dir/Core/Src/cJSON_Test.c.obj: ../Core/Src/cJSON_Test
   F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/stdio.h \
   ../Core/Inc/cJSON_Test.h \
   ../Core/Inc/cJSON.h \
-  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h
+  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/string.h \
+  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_locale.h \
+  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/strings.h \
+  F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/string.h
 
 CMakeFiles/S15909_H750.elf.dir/Core/Src/dma.c.obj: ../Core/Src/dma.c \
   ../Core/Inc/dma.h \
@@ -2534,6 +2550,14 @@ F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi
 
 ../Core/Inc/Judge.h:
 
+F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/stat.h:
+
+F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/stdlib.h:
+
+F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/stdlib.h:
+
+F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/alloca.h:
+
 ../Core/Src/SerialDataProcess.c:
 
 ../Core/Inc/SerialDataProcess.h:
@@ -2545,14 +2569,6 @@ F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi
 ../Core/Inc/adc.h:
 
 ../Core/Src/cJSON.c:
-
-F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/stat.h:
-
-F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/stdlib.h:
-
-F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/stdlib.h:
-
-F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/alloca.h:
 
 F:/WORK/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include-fixed/limits.h:
 
