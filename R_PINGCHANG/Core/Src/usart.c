@@ -215,6 +215,39 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
         HAL_UART_Receive_IT(&huart1, (uint8_t *)g_rx_buffer, RXBUFFERSIZE);
     }
 }
+void Disable_PA9(void)
+{
+    // 使能 GPIOA 时钟
+    __HAL_RCC_GPIOA_CLK_ENABLE();
+
+    // 配置 GPIO 初始化结构体
+    GPIO_InitTypeDef GPIO_InitStruct = {0};
+
+    // 配置 PA9 为模拟模式
+    GPIO_InitStruct.Pin = GPIO_PIN_9;
+    GPIO_InitStruct.Mode = GPIO_MODE_ANALOG;
+    GPIO_InitStruct.Pull = GPIO_NOPULL;
+
+    // 初始化 PA9
+    HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+}
+void Enable_PA9(void)
+{
+    // 使能 GPIOA 时钟
+    __HAL_RCC_GPIOA_CLK_ENABLE();
+
+    // 配置 GPIO 初始化结构体
+    GPIO_InitTypeDef GPIO_InitStruct = {0};
+
+    GPIO_InitStruct.Pin = GPIO_PIN_9;
+    GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
+    GPIO_InitStruct.Pull = GPIO_NOPULL;
+    GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_HIGH;
+    GPIO_InitStruct.Alternate = GPIO_AF7_USART1;
+
+    // 初始化 PA9
+    HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+}
 
 
 /* USER CODE END 1 */

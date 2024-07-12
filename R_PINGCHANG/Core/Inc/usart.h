@@ -48,7 +48,8 @@ extern uint8_t  g_usart_rx_buf[USART_REC_LEN];                                  
 extern uint16_t g_usart_rx_sta;                                                     /* 串口接收状态 */
 extern uint8_t g_rx_buffer[RXBUFFERSIZE];                                           /* HAL库USART接收Buffer */
 
-
+void Enable_PA9(void);
+void Disable_PA9(void);
 
 /* USER CODE END Prototypes */
 

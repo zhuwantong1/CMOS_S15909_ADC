@@ -10,6 +10,8 @@
 #include "cJSON.h"
 #include "Dma_Send.h"
 #include "Communication_Protocol.h"
+#include "stdbool.h"
+#include "tim.h"
 
 #define Device_Pixel_Length        512
 #define Manufacturer               "Iris"
@@ -22,13 +24,18 @@ extern volatile int Average_Number;
 extern volatile uint8_t delay_ms;
 extern volatile int Segment_1;
 extern volatile int Segment_2;
+extern bool set_high;
+//extern volatile int G_Clk_Rise_Number;
+//extern volatile int G_Hamamatsu_Trigger_Rise_Number;
+
+
 //char *segment_p1;
 //char *segment_p2;
 //char segment_info[40];
 uint8_t segment_all[200];
 uint length = 0;
 
-
+bool dma_state = false;
 uint8_t  Min_Integration_Time = 10;
 uint8_t  Max_Integration_Time = 100;
 
@@ -36,7 +43,7 @@ void Judge(){
     struct paramstruct *ParamStructPtr;
     ParamStructPtr = GetParametesptr();
     //IRIS_Protocol_Pack(0x10,1040, uint8_t *BufferIn, uint8_t *PackData);
-    if(strcmp(ParamStructPtr->command,"get_temperature") == 0)
+    if(strcmp(ParamStructPtr->command,"get_temperature") == 0&&dma_state)
     {
         cJSON *root = cJSON_CreateObject(); // 创建一个 JSON 对象
         cJSON_AddStringToObject(root, "command", "get_temperature");
@@ -49,7 +56,7 @@ void Judge(){
         free(json_string);
         cJSON_Delete(root);
     }
-    if(strcmp(ParamStructPtr->command,"get_dev_info") == 0)
+    if(strcmp(ParamStructPtr->command,"get_dev_info") == 0&&dma_state)
     {
         cJSON *root = cJSON_CreateObject(); // 创建一个 JSON 对象
         cJSON_AddStringToObject(root, "command", "get_dev_info");
@@ -67,7 +74,7 @@ void Judge(){
         cJSON_Delete(root);
     }
 
-    if(strcmp(ParamStructPtr->command,"get_min_integration_time") ==0)
+    if(strcmp(ParamStructPtr->command,"get_min_integration_time") ==0&&dma_state)
     {
         cJSON *root = cJSON_CreateObject(); // 创建一个 JSON 对象
         cJSON_AddStringToObject(root, "command", "get_min_integration_time");
@@ -80,7 +87,7 @@ void Judge(){
         free(json_string);
         cJSON_Delete(root);
     }
-    if(strcmp(ParamStructPtr->command,"get_max_integration_time") ==0)
+    if(strcmp(ParamStructPtr->command,"get_max_integration_time") ==0&&dma_state)
     {
         cJSON *root = cJSON_CreateObject(); // 创建一个 JSON 对象
         cJSON_AddStringToObject(root, "command", "get_max_integration_time");
@@ -93,7 +100,7 @@ void Judge(){
         free(json_string);
         cJSON_Delete(root);
     }
-    if(strcmp(ParamStructPtr->command,"set_integration_time") ==0)
+    if(strcmp(ParamStructPtr->command,"set_integration_time") ==0&&dma_state)
     {
         if(ParamStructPtr->Set_Integration_Time<10)
         {
@@ -118,7 +125,7 @@ void Judge(){
         free(json_string);
         cJSON_Delete(root);
     }
-    if(strcmp(ParamStructPtr->command,"set_average_number") ==0)
+    if(strcmp(ParamStructPtr->command,"set_average_number") ==0&&dma_state)
     {
         Average_Number=ParamStructPtr->Average_Number;
         cJSON *root = cJSON_CreateObject(); // 创建一个 JSON 对象
@@ -132,7 +139,7 @@ void Judge(){
         free(json_string);
         cJSON_Delete(root);
     }
-    if(strcmp(ParamStructPtr->command,"set_pixel_segment") ==0)
+    if(strcmp(ParamStructPtr->command,"set_pixel_segment") ==0&&dma_state)
     {
         if(ParamStructPtr->pixel_segment_2>512)
         {
@@ -161,7 +168,7 @@ void Judge(){
         free(json_string);
         cJSON_Delete(root);
     }
-    if(ParamStructPtr ->mul_int_max>=0)
+    if(strcmp(ParamStructPtr->command,"set_mul_max") ==0&&dma_state)
     {
         if(ParamStructPtr ->mul_int_max>5)
         {
@@ -182,5 +189,45 @@ void Judge(){
         free(json_string);
         cJSON_Delete(root);
 
+    }
+    /**进行DMA的管控**/
+    if(strcmp(ParamStructPtr->command,"set_dma_open") ==0&&dma_state)
+    {
+
+        HAL_TIM_IC_Start_IT(&htim3, TIM_CHANNEL_1);              // 启用捕获中断
+        HAL_TIM_IC_Start_IT(&htim1, TIM_CHANNEL_1);              // 启用捕获中断
+        G_Hamamatsu_Trigger_Rise_Number=0;
+        G_Clk_Rise_Number=0;
+
+        cJSON *root = cJSON_CreateObject(); // 创建一个 JSON 对象
+        cJSON_AddStringToObject(root, "command", "set_dma_open");;
+        char *json_string = cJSON_Print(root); // 将 JSON 对象转换为字符串
+        length = strlen(json_string);
+        IRIS_Protocol_Pack(0x00,length,(uint8_t*)json_string,segment_all);
+        HAL_UART_Transmit(&huart1,segment_all,sizeof(segment_all) / sizeof(segment_all[0]),100);
+        memset(segment_all, 0, sizeof(segment_all));
+        free(json_string);
+        cJSON_Delete(root);
+        dma_state = false;
+    }
+    if(strcmp(ParamStructPtr->command,"set_dma_close") ==0&&!dma_state)
+    {
+        __disable_irq();
+        HAL_TIM_IC_Stop_IT(&htim3, TIM_CHANNEL_1);
+        HAL_TIM_IC_Stop_IT(&htim1, TIM_CHANNEL_1);
+        G_Hamamatsu_Trigger_Rise_Number=0;
+        G_Clk_Rise_Number=0;
+        __enable_irq();
+
+        cJSON *root = cJSON_CreateObject(); // 创建一个 JSON 对象
+        cJSON_AddStringToObject(root, "command", "set_dma_close");
+        char *json_string = cJSON_Print(root); // 将 JSON 对象转换为字符串
+        length = strlen(json_string);
+        IRIS_Protocol_Pack(0x00,length,(uint8_t*)json_string,segment_all);
+        HAL_UART_Transmit(&huart1,segment_all,sizeof(segment_all) / sizeof(segment_all[0]),100);
+        memset(segment_all, 0, sizeof(segment_all));
+        free(json_string);
+        cJSON_Delete(root);
+        dma_state = true;
     }
 }

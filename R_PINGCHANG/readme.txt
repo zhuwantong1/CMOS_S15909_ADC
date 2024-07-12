@@ -39,6 +39,11 @@
         "command": "set_mul_max",
         "mul_max": 3
     }
+
+    {
+      "command": "set_dma_state",
+      "dma_state": "open"
+    }
 55 AA 00 00 1D 7B 22 63 6F 6D 6D 61 6E 64 22 3A 22 67 65 74 5F 74 65 6D 70 65 72 61 74 75 72 65 22 7D B9 D0
 55 AA 00 00 1A 7B 22 63 6F 6D 6D 61 6E 64 22 3A 22 67 65 74 5F 64 65 76 5F 69 6E 66 6F 22 7D 2E 5E
 55 AA 00 00 26 7B 22 63 6F 6D 6D 61 6E 64 22 3A 22 67 65 74 5F 6D 69 6E 5F 69 6E 74 65 67 72 61 74 69 6F 6E 5F 74 69 6D 65 22 7D 64 93
