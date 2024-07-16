@@ -21,7 +21,7 @@
 #define temperature                23.65
 
 extern volatile int Average_Number;
-extern volatile uint8_t delay_ms;
+extern volatile uint16_t delay_ms;
 extern volatile int Segment_1;
 extern volatile int Segment_2;
 extern bool set_high;
@@ -106,9 +106,9 @@ void Judge(){
         {
             delay_ms=10;
         }
-        else if(ParamStructPtr->Set_Integration_Time>100)
+        else if(ParamStructPtr->Set_Integration_Time>5000)
         {
-            delay_ms=100;
+            delay_ms=5000;
         }
         else
         {
@@ -127,7 +127,14 @@ void Judge(){
     }
     if(strcmp(ParamStructPtr->command,"set_average_number") ==0&&dma_state)
     {
-        Average_Number=ParamStructPtr->Average_Number;
+        if(ParamStructPtr->Average_Number<2)
+        {
+            Average_Number=2;
+        }
+        else
+        {
+            Average_Number=ParamStructPtr->Average_Number;
+        }
         cJSON *root = cJSON_CreateObject(); // 创建一个 JSON 对象
         cJSON_AddStringToObject(root, "command", "set_average_number");
         cJSON_AddNumberToObject(root, "average_number", Average_Number);
@@ -170,9 +177,9 @@ void Judge(){
     }
     if(strcmp(ParamStructPtr->command,"set_mul_max") ==0&&dma_state)
     {
-        if(ParamStructPtr ->mul_int_max>5)
+        if(ParamStructPtr ->mul_int_max>50)
         {
-            mul_int_max = 5;
+            mul_int_max = 50;
         }
         else
         {

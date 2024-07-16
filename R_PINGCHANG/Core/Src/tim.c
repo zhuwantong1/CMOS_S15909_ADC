@@ -27,8 +27,8 @@
 #include "gpio.h"
 #include "stdbool.h"
 volatile int mul_int = 0;
-volatile int Segment_1 =100;
-volatile int Segment_2 =350;
+volatile int Segment_1 =200;
+volatile int Segment_2 =505;
 
 uint16_t adc_ans[540]={0};
 //uint8_t adc_ans_u8[2080]={0};

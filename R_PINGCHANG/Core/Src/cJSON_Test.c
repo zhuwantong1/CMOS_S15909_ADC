@@ -19,15 +19,11 @@ void cjson(uint8_t g_usart_json_string[])
         cJSON *Average_Number = cJSON_GetObjectItem(json, "average_number");
         cJSON *parameter = cJSON_GetObjectItemCaseSensitive(json, "pixel_segment");
         cJSON *mul_int_max =  cJSON_GetObjectItem(json, "mul_max");
- //       cJSON *dma_state =   cJSON_GetObjectItem(json, "dma_state");
         if (cJSON_IsObject(parameter)) {
-            // Extract "time1" from "parameter"
             cJSON *pixel_segment_1 = cJSON_GetObjectItemCaseSensitive(parameter, "pixel_segment_1");
             if (cJSON_IsNumber(pixel_segment_1)) {
                 Parameters.pixel_segment_1 = pixel_segment_1->valueint;
             }
-
-            // Extract "time2" from "parameter"
             cJSON *pixel_segment_2 = cJSON_GetObjectItemCaseSensitive(parameter, "pixel_segment_2");
             if (cJSON_IsNumber(pixel_segment_2)) {
                 Parameters.pixel_segment_2 = pixel_segment_2->valueint;
@@ -47,7 +43,6 @@ void cjson(uint8_t g_usart_json_string[])
             Parameters.Set_Integration_Time = Set_Integration_Time->valueint;
             Parameters.Average_Number = Average_Number->valueint;
             Parameters.mul_int_max =  mul_int_max->valueint;
-//            Parameters.dma_state =  dma_state->valuestring;
         }
 
 

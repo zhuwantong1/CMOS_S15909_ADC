@@ -9,18 +9,18 @@ static uint8_t  temp[1040];
 static uint16_t temp16[512];
 static uint32_t temp16_2[512];
 
-volatile int Average_Number=25;
-volatile int mul_int_max = 0;//积分n次，输出结果为n+1倍
+volatile int Average_Number=2;
+volatile int mul_int_max = 15;//积分n次，输出结果为n+1倍
 volatile int G_Clk_Rise_Number = 0;
 volatile int G_Hamamatsu_Trigger_Rise_Number_U8 = 0;
 volatile int G_Hamamatsu_Trigger_Rise_Number=0;
 
 
-int index_count = -1;
+int index_count = 0;
 int needreset1=0;
 int needreset2=1;
 int thisneedtransfor=1;
-volatile uint8_t delay_ms=15;
+volatile uint16_t delay_ms=500;
 
 extern struct paramstruct Parameters;
 extern bool set_high;
@@ -49,7 +49,7 @@ void  DMA_Send(){
         {
             for(int i=0;i<512;i++)
             {
-                temp16[i]=temp16_2[i]/Average_Number;
+                temp16[i]=temp16_2[i]/(Average_Number-1);
                 temp16_2[i]=0;
             }
             temp[0]=0xff;
@@ -57,7 +57,7 @@ void  DMA_Send(){
             /****    void *memcpy(void *dest, const void *src, size_t n);    *****/
             memcpy(temp+2,temp16,1024);
             HAL_UART_Transmit_DMA(&huart1,temp,1026);
-            index_count = -1;
+            index_count = 0;
         }
         needreset2=1;
         if(mul_int==mul_int_max)
